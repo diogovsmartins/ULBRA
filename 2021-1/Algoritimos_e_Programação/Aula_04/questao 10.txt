@@ -1,0 +1,13 @@
+ 	programa
+{
+	
+	funcao inicio()
+	{
+		real valor_do_produto, preco_de_venda, quantidade, lucro
+		valor_do_produto=120
+		preco_de_venda=200
+		lucro= preco_de_venda - valor_do_produto
+		
+		escreva("O lucro obtido na venda de cada produto é ",lucro )
+	}
+}

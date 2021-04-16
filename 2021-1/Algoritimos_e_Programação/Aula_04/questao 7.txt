@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro A, B, adi, sub, mult, div
+		A=5
+		B=3
+		adi= A + B
+		sub= A - B
+		mult= A * B
+		div= A / B
+		escreva("O resultado da adição foi ", adi )
+		escreva("\n O resultado da subtração foi ", sub)
+		escreva("\n O resultado da multiplicação foi ", mult)
+		escreva("\n O resultado da divisão foi ", div)
+		
+	}
+}

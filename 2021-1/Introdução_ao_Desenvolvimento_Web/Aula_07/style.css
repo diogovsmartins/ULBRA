@@ -1,0 +1,211 @@
+*{
+    margin: 0 auto;
+}   
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    background-color: #e2e2e2;
+}
+
+.divMenu{
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding-left:21%;
+    padding-right:21%;
+    text-align: center;
+}
+.itemMenu{
+    float: left;
+    color: #ffff;
+    text-align: center;
+    width: 12.5%;
+    height: 40px;
+}
+.ItemMenu:hover{
+    background-color: black;
+}
+table, td, th{
+    border-bottom: 1px solid #e2e2e2;
+    border-collapse:collapse;
+    padding: 7px;
+}
+
+th{
+    color: darkgray;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+td{
+    text-align: center;
+    font-size: 14px;
+}
+
+#divpagina{
+    background-color: #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px  !important;
+}
+
+
+.divlinha{
+    clear: both;
+}
+
+#divcabecalho{
+    background-color:#162e58;
+    min-height: 100px;
+    padding: 50px 30px 10px 30px;
+    position: relative;
+}
+
+#h1cabecalho{
+    margin-left: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#divclassificacao{
+    width: 50%;
+    background-color: #fff;
+}
+
+#divgoleadores{
+    width: 50%;
+    background-color: #fff;
+}
+
+#divpartidas{
+    width: 50%;
+    background-color: #fff;
+}
+
+#tableclassificacao{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+#tablegoleadores{
+    width: 100%;
+    padding: 20px;
+}
+#thJogador{
+    text-align: left;
+}
+
+#tablepartidas{
+    width: 100%;
+    padding: 20px;
+}
+
+.h2TitulosDeSessao{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #e2e2e2;
+}
+
+.h3TituloDeGrupo{
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+    background-color: #e2e2e2;
+}
+
+.nomedoclube{
+    text-align: left;
+}
+
+.thNomeClube{
+    width: 50%;
+}
+
+.tdPosiçãoClube{
+    width: 3%;
+    font-size: 18px;
+}
+
+
+.thCincoUltimas{
+    width: 20%;
+}
+
+.tdJogadores{
+    width: 90%;
+    text-align: left;
+}
+
+.tdUltimasCinco{
+    text-align: center;
+}
+
+
+#tableGoleadores, td{
+    padding: 20px 10px 10px 10px;
+}
+
+.tableJogo{
+    width: 100%;
+    background-color:#ffff;
+    border: 1px grey;
+}
+.tableJogo .tdtableJogo{
+    padding: 10px 10px 10px 10px;
+}
+.tableJogo .thTableJogo{
+    font-size: 14px;
+    color: darkgray;
+    text-align: left;
+}
+.tableJogo .tdClube{
+    text-align: left;
+    width: 80%;
+}
+
+.tableJogo .tdHorario{
+    text-align: center;
+    font-size: 10px;
+}
+.tableJogo th, .tableJogo td{
+    border-bottom: 0px;
+}
+
+.tdImgClube{
+    width: 5%;
+}
+
+.imgClube{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.divVitoria{
+    background-image: url('img/v.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right:5px;
+}
+
+.divDerrota{
+    background-image: url('img/d.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.divEmpate{
+    background-image: url('img/e.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}

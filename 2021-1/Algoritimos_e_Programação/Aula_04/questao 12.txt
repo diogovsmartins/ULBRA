@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, resto
+
+		escreva("Digite um número ")
+		leia(n1)
+		escreva("Digite mais um número ")
+		leia(n2)
+		resto= n1 % n2
+		escreva("O resto da divisão dos seus números é ", resto)
+	}
+}

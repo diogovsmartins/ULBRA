@@ -1,0 +1,19 @@
+body{
+    background-color: slategrey;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid green;
+   
+}
+h1{
+    border: 2px solid darkblue;
+}
+.colorBlue{
+    color: lightskyblue;
+}
+#highlight{
+    color: crimson;
+}

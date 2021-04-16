@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		real numero1,numero2,numero3, soma, media
+		
+		escreva("Digite um número:")
+		leia(numero1)
+		escreva("Digite outro número:")
+		leia(numero2)
+		escreva("Digite mais um número:")
+		leia(numero3)
+		soma= numero1 + numero2+ numero3
+		media=soma /3
+		escreva("A média aritmética dos seus 3 números é " , media)
+
+	}
+}

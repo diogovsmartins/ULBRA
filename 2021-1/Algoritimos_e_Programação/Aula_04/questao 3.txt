@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+	
+		inteiro numero, antecessor, sucessor
+		
+		escreva ("digite um número:")
+		leia(numero)
+		antecessor= numero -1
+		sucessor= numero +1
+		escreva ("o antecessor do seu número é ", antecessor, " e o sucessor é ", sucessor)
+		
+		
+	}
+}

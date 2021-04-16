@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real cerveja, chocolate, sabonete, somatoria, valor_total
+		inteiro quantidade
+
+		cerveja= 3.15
+		chocolate= 5.50
+		sabonete=5.00
+		somatoria= cerveja + chocolate + sabonete
+		
+		escreva("Digite um número ")
+		leia(quantidade)
+		valor_total= somatoria * quantidade
+		
+		escreva("O preço a pagar pelas suas mercadorias é ", valor_total)
+	}
+}

@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, inteira
+
+		escreva("Digite um número ")
+		leia(n1)
+		escreva("Digite mais um número ")
+		leia(n2)
+		inteira= n2 / n1
+		escreva("A parte inteira da divisão dos seus números é ", inteira)
+	}
+}

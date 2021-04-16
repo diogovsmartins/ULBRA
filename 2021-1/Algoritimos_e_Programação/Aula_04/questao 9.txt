@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real coelhos, custo
+		inteiro ncoelhos
+		
+		coelhos= 0.7 /18
+		ncoelhos=5
+		escreva("Digite um número de coelhos: ")
+		leia(ncoelhos)
+		custo= ncoelhos * coelhos + 10
+		escreva("O custo para criar esse número de coelhos é ", custo)
+		
+		
+	
+	}
+}

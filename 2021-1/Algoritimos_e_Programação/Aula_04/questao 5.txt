@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor_hora, salario
+		inteiro horas_trabalhadas, funcionario
+
+		valor_hora=15.50
+		horas_trabalhadas=208
+		salario= valor_hora * horas_trabalhadas
+		escreva("Digite um número: ")
+		leia(funcionario)
+		escreva("O funcionário ", funcionario, " recebe com base nas horas trabalhadas e no valor pago a ele por hora um salário de ", salario, " reais")
+		
+		
+
+		
+		
+		
+	}
+}

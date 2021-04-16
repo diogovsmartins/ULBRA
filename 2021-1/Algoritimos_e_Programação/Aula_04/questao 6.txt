@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real  val1, val2, ven1, ven2, totalp1, totalp2, total
+		inteiro p1, p2
+		
+
+	
+		val1=5
+		val2=3
+		
+
+		escreva("Escreva o codigo da peça 1 ")
+		leia (p1)
+		escreva("Escreva o codigo da peça 2 ")
+		leia (p2)
+		escreva("Digite o número de peças a serem compradas da peça 1: ")
+		leia(ven1)
+		escreva("Digite o número de peças a serem compradas da peça 2: ")
+		leia(ven2)
+		totalp1= val1 * ven1
+		totalp2= val2 * ven2
+		total= totalp1 + totalp2
+		escreva("O total a ser pago pelas compras das peça com o codigo 1: ", p1, " e codigo 2",p2," são: ", total)
+		
+		
+		
+		
+	
+	}
+}

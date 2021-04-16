@@ -1,0 +1,97 @@
+Principais elementos CSS e  que considero importante:
+
+estilizadores e formatadores de fontes:
+
+font-size:
+font-size é utilizado para definir o tamanho da font que está sendo estilizada.
+
+font-family:
+font-family define qual a familia da fonte que será usado nos textos do site.
+
+text-align:
+alinha o texto da forma desejada, pro meio, pro canto esquerdo ou direito etc.
+
+b:
+coloca o texto em negrito.
+
+u:
+coloca o texto dentro dele com uma underlinha embaixo.
+-------------------------------------------------
+
+formatadores de pagina, alinhamento e proporção:
+
+div:
+divs servem para dividir os conteudos da forma desejada e também podem ser estilizados para se tornarem elementos de conteudo.
+
+align-content: 
+align content serve para alinhar o conteudo que a css esteja atribuindo valor.
+
+margin:
+margin serve para definir o tamanho da margem do conteudo que está sendo estilizado por ela.
+
+padding:
+padding é utilizado para definir a distancia em volta de um conteudo dentro de uma div por exemplo.
+
+width/height:
+são utilizados para dar a dimensão desejada para os conteudos.
+
+max width/height:
+max width/height é utilizado para definir um limite máximo para um conteudo, por exemplo, uma foto ou uma div.
+
+float:
+float é utilizado para "arrumar" os conteudos da forma desejada fazendo-os flutuar na direção desejada para que um se encaixe no outro de forma mais natural.
+
+border:
+como o nome sugere é utilizado para colocar bordas nos conteudos, mas pode ser utilizada também para criar linhas se usado em uma div por exemplo.
+
+border-radius:
+border-radius arredonda a borda do conteudo estilizado.
+
+display:
+a css de display pode ser utilizada para definir como será feito o display do conteudo para que ele seja apresentado em coluna, em linha, flex ou block proporcionando
+mais liberdado na estilização.
+
+br:
+da uma quebra de linha
+
+----------------------------------------------
+
+Estilizadores de cor e fundo:
+
+color:
+color dá uma propriedade de cor pra tag que esta sendo estilizada, pode ser utilizada para criar linhas coloridas, textos, titulos etc.
+
+background-color:
+background-color adiciona uma propriedade de cor ao fundo da tag estilizada.
+
+background-image:
+assim como a background-color a background-image permite ao programador colocar uma imagem ao fundo da html estilizada.
+
+span:
+é uma css utilizada para colocar cor no meio de um texto.
+
+Css de conteudo:
+
+h1, h2, h3, h4, h5, h6:
+as tags utilizadas geralmente para colocar titulos.
+
+p:
+tag utilizada para inserir paragrafos de texto.
+
+a:
+tag utilizada para inserir links.
+
+img:
+tag utilizada para inserir imagens.
+
+ul:
+lista um conteudo sem ordem, ao inves de colocar a,b,c,d  ou 1,2,3,4 ela cria uma lista pontilhada, com os pontos ao lado de cada item.
+
+li:
+tag utilizada para criar uma lista ordenada, de 1 a 5 por exemplo ou da letra "a" ao "f".
+
+video:
+tag utilizada para inserir videos.
+
+
+Nome:Diogo Vinícius dos Santos Martins.
