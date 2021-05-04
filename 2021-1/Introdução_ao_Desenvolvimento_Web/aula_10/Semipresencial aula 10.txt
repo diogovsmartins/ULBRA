@@ -1,0 +1,54 @@
+﻿rosa 
+  
+
+
+
+ Introdução ao Desenvolvimento Web
+Prof. Ms. Vinícius Magnus - @vinimagnus
+Atividade semipresencial aula 10 
+
+
+Realizar uma pesquisa sobre os elementos utilizados para a construção de layouts. 
+Relatar as diferenças entre as  quatro maneiras mais utilizadas para a criação de layouts de várias colunas:
+* HTML tables (not recommended)
+* CSS float property
+* CSS flexbox
+* CSS framework
+
+
+
+
+________________
+
+HTML tables:
+Os elementos utilizados para criar tabelas em HTML 
+são as tags: table, tr, th e td
+respectivamente elas são usadas para: abrir e fechar uma tabela, criar uma "linha" onde ficarão os conteudos, criar cabeçalhos para as tabelas e criar celulas onde ficarão
+os conteudos dentro da tabela.
+Não é uma boa prática criar sites usando tabelas porque em aparelhos móveis elas não são responsíveis, embora existam meios para torna-las responsíveis, além de serem
+difíceis de estilizar tornando ainda mais complicado a criação de sites usando tabelas.
+No entanto com muito menos esforço utilizando apenas css e html é mais facil tornar um site responsivo e portanto criar um site em tabela não se faz tão vantajoso.
+Mas é importante ressaltar que as tables são muito valiosas e podem ser utilizadas na criação de sites onde o conteudo precisa ser tabulado ou comparado por exemplo.
+
+CSS float property:
+Os elementos de float que são utilizados em css são float left e float right, como o nome ja diz ela da a propriedade de flutuar para a esquerda ou para direita.
+É comum vermos o uso de float left/right junto do uso de divs, já que dando float na div todo o conteúdo dentro dela também se move junto.
+Então o uso combinado de divs e float podem ser usados em diversos estilos de sites, como sites de artigos, sites de marketplace, ou sites com varios tipos de conteudos
+já que o uso de float com divs proporcionam ao programador muita flexibilidade na criação de diversos tipos de sites.
+
+CSS flexbox:
+Flexbox, inicialmente projetado para layouts pequenos é um estilo de layout que permite com que o programador possa arrumar os itens dentro de um conteiner ao trata-los
+como "flexíveis", podendo rearranja-los dentro dos respectivos containers.
+As vantagens da flexbox é que ela é facil de fazer responsiva, facil de arrumar os itens dentro dos conteiner e organizar os elementos "filhos" e não é preciso utilizar floats por exemplo.
+As flexbox contam com diversas ferramentas que ajudam no posicionamento dos itens dentro delas como: display-flex/inline-flex, flex-direction, flex-basis, justify content:flex-start/end/center, align-self,
+align-items, align-content e flex-grow/shrink.
+Respectivamente eles são utilizados para: declarar que os elementos dentro daquele container serão tratados como flexíveis, direcionar se eles serão posicionados em
+colunas ou linhas, declarar o tamanho dos intes flexíveis, decidir em que ordem eles vão ser colocados se da esquerda pra direita ou da direita pra esquerda ou ate no meio,
+sobrepor a ordem de como elas vao ser colocados em um item específico e decidir o tamanho que os itens irão ocupar dentro da linha e torna-los maiores ou menores.
+
+CSS framework:
+Geralmente frameworks são utilizados pra agilizar e prototipar os sites com mais agilidade, além de virem com diversos códigos prontos e estilizados oque pode ser de 
+grande ajuda para desenvolvedores menos experientes.
+Frameworks são responsíveis por padrão, agilizam a criação e prototipação de sites, compatíveis com a maioria dos novos browsers e possuem diversos
+plugins e widgets que proporcionam mais ferramentas ainda.
+

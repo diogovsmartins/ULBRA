@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+}
+/*Estilizações do header*/
+header{
+    background-color:rgb(0, 0, 0);
+    min-height:100px;
+    border-bottom:1px solid #ffa600e8;
+}
+
+header h1{
+    float: left;
+    padding: 10px;
+    color:rgba(255, 166, 0, 0.911);
+}
+
+header h4{
+    float: right;
+    padding: 10px;
+    color:rgba(255, 166, 0, 0.911);
+}
+h4:hover{
+    color: white;
+}
+
+/*Fim dasestilizações do header*/
+
+/*Estilizações do section1*/
+#section1{
+    background-color:#030e1ae5;  
+    text-align: center;
+    clear: both;
+}
+
+#img_foto{
+    margin-top:50px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%
+}
+
+#h2_section{
+    padding-top: 20px;
+    color: rgba(255, 166, 0, 0.911); 
+}
+
+#h2_section2{
+    padding: 40px 0px 50px 0px;
+    color:#ffa600e8;
+    
+}
+
+/*fim das estilizações do section1*/
+
+/*Estilizações da section2*/
+#section2{
+    background-color: #030e1ae5;
+    padding:50px 0px 30px 0px;
+    text-align: center;
+    color:#ffa600e8;
+    clear: both;
+    border-top:1px solid #ffa600e8;
+    border-bottom:1px solid #ffa600e8;
+}
+#h3_section2{
+    padding-bottom:20px;
+}
+    
+
+#icon_instagram{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#icon_facebook{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#icon_linkedin{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+/*Fim das estilizações da section2*/
+
+/*Estilizações da section3*/
+
+#section3{
+    background-color:#030e1ae5;
+    text-align: center;
+    padding: 30px;
+    display: -moz-grid-line;
+    clear: both;
+    color:#ffa600e8;
+    border-bottom:1px solid #ffa600e8;  
+}
+
+#trab1{
+    height: 30%;
+    width:30%;
+    margin-top: 50px;
+    border: 3px solid #ffa600e8;
+    border-radius:20px
+}
+
+#trab2{
+    height: 30%;
+    width: 30%;
+    margin-left:5px;
+    border: 3px solid #ffa600e8;
+    border-radius:20px
+}
+
+#trab3{
+    height: 30%;
+    width: 30%;
+    margin-left:5px;
+    border: 3px solid #ffa600e8;
+    border-radius:20px
+} 
+
+/*Fim das estilizações da section3*/
+
+/*estilizações do footer*/
+
+footer{
+    background-color: black;
+    min-height: 100px;
+    text-align: center;
+    padding-top:50px    ;
+}
+
+#h2_footer{
+    color:#ffa600e8;
+    font-size:25px;
+    min-height: 100px;
+}
+
+/*Fim das estilizações do footer*/

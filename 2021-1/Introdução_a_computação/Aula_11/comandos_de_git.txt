@@ -1,0 +1,12 @@
+git init: cria um arquivo git dentro da pasta e inicia o git
+git add . ou git add nome do arquivo: coloca os arquivos no malote, o "." põe tudo e o git add nome poe um só
+git status: checa oq está acontecendo no git e avisa se tem algo errado em alguns casos
+git commit -m :fecha o malote com os arquivos e identifica eles
+git push: envia os arquivos do malote
+git clone: clona um repositório remoto pro teu pc
+mkdir: cria uma pasta no meu pc
+&&: pode ser usado para usar varios comandos de git na mesma linha como por exemplo: git add . && git commit -m "nanana" && git push 
+e eles irão rodar na mesma linha e em ordem
+git pull: pega as branches e os arquivos delas pro computador.
+git checkout "nome da branch" :entra em uma branch para comitar nessa branch especifica, se ela não existir ainda o git cria ela e te põe nela.
+git branch: mostra as branches que existem naquele repositório

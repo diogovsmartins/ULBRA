@@ -1,34 +1,12 @@
 *{
     margin: 0 auto;
 }   
-a, a:link, a:hover, a:visited{
-    text-decoration: none;
-    color: #ffffff;
-}
+
 body{
     background-color: #e2e2e2;
 }
+/*Tables e estilizações das tables*/
 
-.divMenu{
-    position:absolute;
-    bottom: 0px;
-    width: 100%;
-    clear: both;
-    text-align: center;
-    padding-left:21%;
-    padding-right:21%;
-    text-align: center;
-}
-.itemMenu{
-    float: left;
-    color: #ffff;
-    text-align: center;
-    width: 12.5%;
-    height: 40px;
-}
-.ItemMenu:hover{
-    background-color: black;
-}
 table, td, th{
     border-bottom: 1px solid #e2e2e2;
     border-collapse:collapse;
@@ -46,43 +24,10 @@ td{
     font-size: 14px;
 }
 
-#divpagina{
-    background-color: #e2e2e2;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 100px  !important;
-}
-
-
-.divlinha{
-    clear: both;
-}
-
-#divcabecalho{
-    background-color:#162e58;
-    min-height: 100px;
-    padding: 50px 30px 10px 30px;
-    position: relative;
-}
-
 #h1cabecalho{
     margin-left: 0px;
     color: rgb(255, 255, 255);
     font-size: 20px;
-}
-
-#divclassificacao{
-    width: 50%;
-    background-color: #fff;
-}
-
-#divgoleadores{
-    width: 50%;
-    background-color: #fff;
-}
-
-#divpartidas{
-    width: 50%;
-    background-color: #fff;
 }
 
 #tableclassificacao{
@@ -95,6 +40,7 @@ td{
     width: 100%;
     padding: 20px;
 }
+
 #thJogador{
     text-align: left;
 }
@@ -121,14 +67,13 @@ td{
 }
 
 .thNomeClube{
-    width: 50%;
+    width:40%;
 }
 
 .tdPosiçãoClube{
     width: 3%;
-    font-size: 18px;
+    font-size: 14px;
 }
-
 
 .thCincoUltimas{
     width: 20%;
@@ -140,9 +85,8 @@ td{
 }
 
 .tdUltimasCinco{
-    text-align: center;
+    width: 40%;
 }
-
 
 #tableGoleadores, td{
     padding: 20px 10px 10px 10px;
@@ -153,14 +97,17 @@ td{
     background-color:#ffff;
     border: 1px grey;
 }
+
 .tableJogo .tdtableJogo{
     padding: 10px 10px 10px 10px;
 }
+
 .tableJogo .thTableJogo{
     font-size: 14px;
     color: darkgray;
     text-align: left;
 }
+
 .tableJogo .tdClube{
     text-align: left;
     width: 80%;
@@ -182,6 +129,7 @@ td{
     max-width: 20px;
     max-height: 20px;
 }
+/*Divs  de conteudo*/
 
 .divVitoria{
     background-image: url('img/v.svg');
@@ -198,7 +146,7 @@ td{
     width: 16px;
     height: 16px;
     float: left;
-    margin-right: 5px;
+    margin-right:5px;
 }
 
 .divEmpate{
@@ -207,5 +155,71 @@ td{
     width: 16px;
     height: 16px;
     float: left;
-    margin-right: 5px;
+    margin-right:5px;
+}
+/*Outras Divs*/
+
+.divlinha{
+    clear: both;
+}
+
+#divcabecalho{
+    background-color:#162e58;
+    min-height: 100px;
+    padding: 50px 30px 10px 30px;
+    position: relative;
+}
+
+#divclassificacao{
+    width: 50%;
+    background-color: #fff;
+}
+
+#divgoleadores{
+    width: 50%;
+    background-color: #fff;
+}
+
+#divpartidas{
+    width: 50%;
+    background-color: #fff;
+    margin-bottom: 50px  !important;
+}
+
+#divpagina{
+    background-color: #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.divMenu{
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding-left:21%;
+    padding-right:21%;
+    text-align: center;
+}
+
+.itemMenu{
+    float: left;
+    color: #ffff;
+    text-align: center;
+    width: 12.5%;
+    height: 20px;
+}
+
+.itemMenu:hover{
+    background-color: black;
+    border: 1px solid;
+    height: 20px;
 }

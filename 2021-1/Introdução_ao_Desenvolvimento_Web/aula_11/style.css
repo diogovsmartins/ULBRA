@@ -1,0 +1,52 @@
+/*estilizações gerais*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /*Estilização do Header*/
+header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: white;
+}
+/*estilização do menu de navegação*/
+nav{
+    float: left;
+    width:30%;
+    background-color: #ddd;
+    min-height: 300px;
+    padding: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+/*estilização do article*/
+article{
+    float: left;
+    width: 70%;
+    padding:30px;
+}
+/*estilização do section*/
+section::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+/*estilização do footer*/
+footer{
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+}
