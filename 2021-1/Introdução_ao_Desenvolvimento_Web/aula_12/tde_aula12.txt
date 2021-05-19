@@ -1,0 +1,60 @@
+Os principais beneficios de utilizar bootstrap 
+são a praticidade e a agilidade que a ferramenta
+proporciona ao desenvolvedor com os estilos
+prontos, o estilo de layout em grid e responsivo
+e diversas outras estilizações prontas.
+Utilizando bootstrap fica bem mais fácil e rapido
+de projetar o "esqueleto" de um site em html
+oque da mais tempo para as equipes
+usarem em outras partes como custom css,
+funções e features.
+Os componentes mais comum são:
+
+jumbotron, geralmente utilizada em cabeçalhos,
+adiciona uma cor de fundo e tenta deixar ele 
+responsivo.
+
+navs, comcumente usadas em menus, podem ser utilizadas
+atribuindo a class .nav em um ul e ele automaticamente
+vai tratar aquele ul como um menu e cada item
+(<li>) que estiver dentro da <ul> com a class .nav-item vai 
+ser tratado como um item do menu e é possivel também
+adicionar a class nav-link dentro da tag <a> para que o bootstrap
+faça uma estilização padrão do link.
+
+navbars, menus de navegação criados usando a class .navbar
+as melhoes funções que o navbar do bootstrap
+proporciona é a estilização que usa cores, padding, fonts e 
+a responsividade que faz uso da caracteristica
+de containers fluidos que força com que ele seja responsivo
+em todos os tipos de telas.
+
+cointaners que são utilizados no layout da pagina
+para preencher os conteudos e espaçar eles de forma 
+adequada e responsiva, além disso existe a opção
+de usar um container-fluid que da uma width
+de 100% do tamanho existente e torna esse container
+responsivo.
+junto aos containers podem ser utilizados as classes row e col
+que criam respectivamente linhas e colunas que facilitam 
+a inserção de conteudo no local desejado e espaça eles da forma 
+desejada, na mesma linha ou na mesma coluna.
+
+Os buttons tb que são utilizados colocando a class
+btn e depois o estilo desejado, como primary, secondary, sucess, danger 
+entre outros, são bem úteis e podem ser usados em diversos lugares
+como links, menus, formulários e outros, eles ja vem estilizados
+e formatados com paddings e algumas outras funções que podem ser úteis
+como estado ativo e inativo ou check.
+
+E por fim os cards, podem ser adicionados com a class card, super utilizados em sites que mostram
+diversos conteudos como por exemplo um site de loja
+onde as thumbs dos produtos precisam ser mostradas em uma linha
+ou a netflix por exemplo que te mostra thumbs dos conteudos 
+disponiveis na plataforma. Os cards são containers flexíveis e extensíveis
+ou seja, são responsivos e podem variar em tamanho oque proporciona muita 
+flexibilidade no uso deles. Assim como os buttons eles tem diversas funções 
+como card-img-top ou img-bottom que cria um espaço dentro do card e um espaço onde 
+se pode adicionar textos.
+
+

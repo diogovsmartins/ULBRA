@@ -47,8 +47,10 @@ colunas ou linhas, declarar o tamanho dos intes flexíveis, decidir em que ordem
 sobrepor a ordem de como elas vao ser colocados em um item específico e decidir o tamanho que os itens irão ocupar dentro da linha e torna-los maiores ou menores.
 
 CSS framework:
-Geralmente frameworks são utilizados pra agilizar e prototipar os sites com mais agilidade, além de virem com diversos códigos prontos e estilizados oque pode ser de 
+Geralmente frameworks são utilizados pra agilizar e prototipar os sites com mais facilidade, além de virem com diversos códigos prontos e estilizados oque pode ser de 
 grande ajuda para desenvolvedores menos experientes.
 Frameworks são responsíveis por padrão, agilizam a criação e prototipação de sites, compatíveis com a maioria dos novos browsers e possuem diversos
-plugins e widgets que proporcionam mais ferramentas ainda.
+plugins e widgets que proporcionam mais ferramentas ainda. Alguns deles ja trabalham com sistema de grids como por exemplo o Bootstrap, ele já utiliza por padrão
+o sistema de grids que alinha os conteúdos de em linhas e colunas, facilitando o posiconamento dos conteúdos e com alguns outros comandos os tornam responsívos
+por padrão.
 

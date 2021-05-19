@@ -1,0 +1,78 @@
+/* Container que contém os outros */
+.wrapper{
+    width: 70%;
+    height:100%;
+    margin:10px auto;
+    border: 3px solid rgba(98, 228, 148, 0.973);
+    background-color: rgba(49, 48, 44, 0.856);
+    text-align: center;
+}
+
+/* Container que contém os outros */
+
+/* Estilização da Foto do curriculo */
+.foto{
+    margin:0px;
+    border: 5px solid rgba(98, 228, 148, 0.973);
+    border-radius:50%;
+    max-width: 80%;
+    max-height:80%;
+}
+/* Fim da estilização da foto */
+
+/*  dados de contato */
+.dados_de_contato{
+    color:rgba(218, 219, 219, 0.973);
+    font-size: 20px;
+}
+a{
+    color:rgba(98, 228, 148, 0.973);
+}
+a:hover{
+    color:rgba(228, 226, 98, 0.973);
+}
+
+/* Fim da estilização dos dados de contato */
+
+/* Estilização dos titulos de tópico */
+.display-4{
+    color:rgba(98, 228, 148, 0.973);
+}
+/* Fim das estilizações dos titulos de tópicos */
+
+/* Css de estilização dos containers */
+
+.container-fluid-1{
+    border-bottom:3px solid rgba(98, 228, 148, 0.973);
+}
+
+.container-fluid-2{
+    border-bottom:3px solid rgba(98, 228, 148, 0.973);
+}
+
+.container-fluid-3{
+    border-bottom:3px solid rgba(98, 228, 148, 0.973);
+}
+
+.container-fluid-4{
+    border-bottom: rgba(98, 228, 148, 0.973);
+}
+
+.container-fluid-5{
+    border-bottom:rgba(98, 228, 148, 0.973);
+}
+/* Fim do Css dos Containers */
+
+/*Estilizações de texto*/
+
+.container-fluid-3 h3{
+    color: rgba(98, 228, 148, 0.973);
+    font-size: 25px;
+}
+.container-fluid-3 p{
+    color: rgba(218, 219, 219, 0.973);
+}
+
+/*Estilizações de texto*/
+
+

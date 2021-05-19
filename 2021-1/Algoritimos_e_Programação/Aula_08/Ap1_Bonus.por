@@ -28,8 +28,9 @@ programa
 			notas=valor/2
 			valor=valor%2
 			escreva("\nNotas de 2 R$: ", notas)
-		}senao
-		escreva("\nNotas de 1 R$: ", (valor/1))	
+		}se(valor>=1){
+			escreva("\nNotas de 1 R$: ", (valor/1))		
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 631; 
+ * @POSICAO-CURSOR = 582; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
