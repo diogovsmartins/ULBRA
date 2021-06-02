@@ -1,0 +1,69 @@
+/* Estilizações do header e do footer */
+.jumbotron{
+    background-color: rgb(230, 145, 48);
+    margin-bottom:0px;
+}
+/* Estilizações do header e do footer */
+
+/* Estilização dos articles */
+
+article{
+    background-color: rgba(240, 240, 240, 0.877);
+}
+
+.card-title{
+    color: rgb(247, 119, 104);
+}
+
+.img-fluid{
+    max-width: 200px;
+    max-height: 200px;
+    float: right;
+}
+
+.card{
+    margin: 10px auto;
+    height: 200px;
+    padding: 0px 20px 20px 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:rgb(247, 119, 104) ;
+    text-decoration: none;
+}
+
+/* Estilização dos articles */
+
+/* Estilização da Sidebar */
+aside{
+   background-color: rgba(240, 240, 240, 0.877);
+}
+
+.title_materia{
+    color: rgb(248, 112, 97);
+    font-size: 17px;
+}
+
+aside .card{
+    padding:20px;
+}
+
+.foto_colunista{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius:50%;
+    float: right;
+}
+.foto_materia{
+    max-width: 150px;
+    max-height:150px;
+    float: right;
+    padding-bottom:5px;
+    border-radius: 5%;
+}
+
+/* Estilização da Sidebar */

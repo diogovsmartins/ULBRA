@@ -1,0 +1,49 @@
+/* Estilizações gerais do body */
+*{
+    margin: 0% !important;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 1.50;
+}
+/* Estilizações gerais do body */
+
+/* Banner Cabeçalho */
+.jumbotron{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 30%;
+    margin-bottom: 0% !important;
+}
+/* Banner Cabeçalho */
+
+/* Menu de navegação */
+.menu {
+    min-height: 5%;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+/* Menu de navegação */
+/* Estlização dos conteúdos */
+#titulo_da_section{
+    text-align: center;
+    margin-bottom: 2rem !important;
+}
+.col-md-6{
+    text-align: center;
+}
+
+a{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Estlização dos conteúdos */

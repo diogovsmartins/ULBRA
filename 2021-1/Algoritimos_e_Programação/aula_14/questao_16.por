@@ -1,5 +1,5 @@
 programa
-{	/*16.Faça um programa que receba várias idades, calcule e mostre a média das idades digitadas. Finalize di-
+{	/*16.Faça um programa que receba várias idades, calcule e mostre a média das idades digitadas. Finalize di-
 	*gitando idade igual a zero.*/
 	
 	funcao inicio()
@@ -9,18 +9,21 @@ programa
 
 		
 		faca{
-			i++
-			escreva("\n"+i+" Digite a idade: ")
-			leia(idade)
-			soma=soma+idade
-			media=soma/i
-			escreva("A media das idades digitadas até o momento é: "+media)
-			escreva("\nDeseja continuar digitando idades? (sim ou não): ")
-			leia(continuar)
 			
-		}enquanto(continuar=="sim")
+			i++
+			escreva("\n Digite a idade: ")
+			leia(idade)
+			
+			se(idade!=0){
+				soma=soma+idade
+				media=soma/i
+				i++
+				escreva("A media das idades digitadas até o momento é: "+media)
+			}
+			
+		}enquanto(idade != 0)
 
-		escreva("\n\nFim do programa. O usuário digitou não.")
+		
 		
 		
 	}
@@ -30,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 577; 
+ * @POSICAO-CURSOR = 474; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,0 +1,29 @@
+3-Faça um programa que lê treŝs números diferentes e mostra na tela uma mensagem 
+indicando qual é a soma dos valores e a média. 
+Caso a média seja maior que 20 mostrar a mensagem "SOMA MAIOR QUE 20"
+
+
+int main()
+{
+    int n, soma=0, media, i;
+        for(i=0;i<3;i++){
+            printf("Digite um número: ");
+            scanf("%i",&n);
+            soma+=n;
+        }
+
+        media=soma/i;
+        printf(".\nA soma dos valores digitados é:%i ",soma);
+        if(media<20)
+         printf(".\nA media dos números digitados é:%i ",media);
+        else{
+            printf(".\nA soma é maior que 20.");
+        }
+
+        return 0;
+}
+_______________________________________________________________________
+Fiz no compilador do browser : https://www.onlinegdb.com/online_c_compiler
+
+diferenças principais, é em inglês, escreva é printf, leia é scanf, se e senao são if e else, pra mostrar uma variavel precisa usar %i que define qual o tipo da variavel
+ que vai ser mostrada e ser obrigatório o ";" no final de cada comando.
