@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(197, 54%, 18%);
+}
+#box{
+    width: 35vw;
+    height: 50vh;
+    margin: 100px auto;
+    background-color: rgb(54, 54, 54);
+    padding: 25px;
+    border: 2px solid rgb(47, 160, 117);
+
+}
+#n1{
+    width: 50%;
+    background-color:rgb(110, 110, 110);
+    border: 2px solid hsl(130, 80%, 68%);
+    margin-bottom: 5px;
+}
+#n2{
+    width: 50%;
+    background-color:rgb(110, 110, 110);
+    border: 2px solid hsl(130, 80%, 68%);
+    margin-bottom: 5px;
+}
+
+#operacao{
+   background-color:hsl(130, 80%, 68%);
+   width: 10%;
+}
+#resultado{
+    background-color:hsl(130, 80%, 68%)!important;
+}
+#btn{
+    background-color:hsl(130, 80%, 68%);
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin:15px;
+}
+#btn:focus{
+    background-color: goldenrod;
+    transition: linear 300ms;
+    color: black;
+}

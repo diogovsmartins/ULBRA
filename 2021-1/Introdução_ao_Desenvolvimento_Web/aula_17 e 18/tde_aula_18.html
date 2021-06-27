@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <div id="box">
+        <h2>Calculadora</h2>
+            <form action="#">
+                <input id="n1" type="text">
+                <input id="n2" type="text">
+            </form>
+            <select name="operacao" id="operacao">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <form action="#">
+                <input id="resultado" type="text">
+            </form>
+            <button id="btn" onclick="btn()">Calcular</button>
+        
+    </div>
+    <!-- Atividade 2 -->
+    <div id="box">
+        <h2>Caldulador de kwh</h2>
+        <form action="#">
+        <input id="kwh" type="text">
+        <input id="valorUnit" type="text">
+        <button id="btn" onclick="calcularKwh()">Calcular</button>
+        </form>
+        <form action="#">
+            <input id="resultadoAt2" type="text">
+        </form>
+    </div>
+    <!-- Atividade 3 -->
+    <div id="box">
+        <h2>Verificar maior número</h2>
+        <form action="#">
+            <input id="inputs" type="text">
+            <button id="btn" onclick="checarMaior()">Verificar</button>
+        </form>
+        <form action="#">
+            <input id="resultAt3" type="text">
+        </form>
+    </div>
+    
+    <!-- Atividade 4 -->
+    <div id="box">
+        <h2>Verificar maior idade</h2>
+        <form action="#">
+            <input id="idades" type="text">
+            <button id="btn" onclick="verifyAges()">Verificar</button>
+        </form>
+        <p id="resultAt4">
+
+        </p>
+    </div>
+
+</body>
+</html>

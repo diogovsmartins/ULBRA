@@ -1,0 +1,8 @@
+jQuery é uma biblioteca de funções de javascript de codigo aberto,  foi criada por John Resig e Ben Nolan, o jQuery nasceu de uma ideia de uma ideia de um dos criadores de ligar as funções do JS aos elementos do DOM utilizando pseudo seletores de CSS. No entanto jQuery se tornou algo muito mais versátil e poderoso
+e hoje em dia pode ser usada para desenvolver aplicações com AJAX, fazer animações, manipular eventos dentre muitas outras coisas. 
+Como já diz o slogan do jQuery "write less, do more.", ele simplifica bastante os codigos em JS e facilita o uso de elementos dentro do DOM por conta de sua sintaxe
+oque por sí só já é muito bom já que enchuta o código do desenvolvedor e faz com que seja mais rapido escrever os códigos e as funcionalidades desejadas.
+O jQuery também proporciona a possibilidade de utilizar diversos plugins criados por outros desenvolvedores e a reutilização de códigos fazendo uso dos plugins,
+oque agiliza ainda mais os projetos feitos com jQuery. Além disso o jQuery é uma biblioteca multi-plataforma, ou seja, ela é compativel com qualquer navegador da internet.
+De forma simples e resumida, jQuery é uma biblioteca utilizada para criar interatividade e dinamismo  em paginas web de forma mais rápida, eficaz e com muita versatilidade.
+
