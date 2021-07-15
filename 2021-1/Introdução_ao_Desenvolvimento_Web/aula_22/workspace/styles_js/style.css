@@ -1,0 +1,50 @@
+:root {
+  --clr-main: #7cffc4;
+  --clr-secondary: #0d2133;
+  --details: #6bbaec;
+  --suport_darker: #141414;
+  --suport_brighter: #f0eeee;
+  --neon: hsl(216, 62%, 70%);
+  --neon-bg: rgb(3, 32, 43);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.jumbotron {
+  background-color: var(--suport_darker);
+  color: var(--clr-main);
+  border-bottom: 2px solid var(--details);
+  border-top: 2px solid var(--details);
+}
+
+/* Estilizações dos cards da seção de vendas */
+.card-container {
+  background-color: var(--neon-bg);
+  color: white;
+}
+
+.card {
+  background-color: var(--suport_darker);
+  border: 2px solid var(--clr-main);
+  box-shadow: inset 0 0 0.8em var(--neon), 0 0 0.8em 0 var(--neon);
+  position: relative;
+}
+.card > img {
+  border: 2px solid var(--clr-main);
+  box-shadow: inset 0 0 0.8em var(--neon), 0 0 0.8em 0 var(--neon);
+  position: relative;
+}
+
+aside {
+  background-color: var(--suport_darker);
+  color: var(--details);
+  border-left: solid 2px var(--details);
+}
+.nav-item {
+  background-color: #7cffc4;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
