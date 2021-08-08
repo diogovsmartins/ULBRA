@@ -1,0 +1,14 @@
+:root{
+    --bg-clr:;
+    --primary-clr:;
+    --secondary-clr:;
+}
+body{
+    margin: 0px;
+
+}
+
+.jumbotron{
+   background-color: rgb(37, 37, 37);
+   color: green;
+}

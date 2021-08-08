@@ -1,0 +1,49 @@
+O que é engenharia de software?
+
+Engenharia de software é a idealização do software antes da criação. Assim como um arquiteto faz a planta da casa antes de construi-la, um desenvolvedor de software precisa criar a estrtutura e a base do software.
+
+Desenvolver um software tem diversas fases também conhecida como o ciclo de vida do software, é preciso passar por todas elas para entender o funcionamento do software em sua totalidade.
+
+
+Requisito: É uma necessidade do software, algo que ele precisa ter por padrão ou porque o cliente pediu. O analista de sistema analisa esse requisito e tenta transformar essa necessidade em uma solução.
+
+Ciclo de vida de um software:
+Análise (requisitos do software), projeto (Especificicação funcional, desempenho e interface), codificação (Estrutura de dados e arquitetura do sistemas), teste (testar o programa pra ver se tudo está funcionando corretamente) e manutenção (Dar suporte ao software mantendo o funcional e otimizado.).
+
+Stakeholders:Todas as pessoas envolvidas diretas e indiretamente com o projeto.
+
+Um stakeholder identificado é uma PERSONA (melhor franquia de jogos da Shin Megumi, god bless her games)
+
+Regra de negócio:
+Como funciona cada necessidade do usuário (requisitos).
+
+Agregar valor:
+Entegar algo que seja útil a alguem.
+
+Retrabalho:
+Ter que refazer alguma parte do software por não ter sido bem feito,  não ter sido idealizado corretamente
+.
+
+Escalabilidade:
+O quanto o software pode crescer
+e o quão facil é adicionar novas features e funcionalidades.
+
+Manutenabilidade:
+Mais ou menos retrabalho na hora de criar ou adicionar algo por conta do software ter sido mal projetado ou idealizado.
+
+Manutenibilidade e escalabilidade andam juntos.
+
+ERP: “Enterprise Resource Planning é um sistema de gestão que permite acesso fácil, integrado e confiável aos dados de uma empresa. A partir das informações levantadas pelo software, é possível fazer diagnósticos aprofundados sobre as medidas necessárias para reduzir custos e aumentar a produtividade.”
+
+Efeito quimioterapia:
+Tentar arrumar alguma coisa e estragar outra.
+
+Fase de implantação que vem depois da fase de testes: 
+Deploy - compilar e subir versão produção
+
+Software em produção é? O Software em funcionamento disponível pros usuários.
+
+ Falha de sintaxe: erro de escrita
+ Falha de semântica: erro de lógica
+
+

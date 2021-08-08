@@ -1,1 +1,24 @@
-#:triangular_flag_on_post: ULBRA##Meus estudos na ulbra Ol·, meu nome È Diogo, eu estou estudando an·lise e desenvolvimento de sistemas na ULBRA.Nesse repositÛrio vocÍ vai econtrar meus exercÌcios, atividades, provas e pesquisas que fiz durante todo o percuso da faculdade. ##:pencil2: Cadeiras que tive atÈ o momento e oque elas ensinaram:#####:small_blue_diamond:Algoritimos 1(LÛgica de programaÁ„o)#####:small_blue_diamond:IntroduÁ„o ao desenvolvimento web (HTML, CSS, Bootstrap e JavaScript)#####:small_blue_diamond:IntroduÁ„o ‡ computaÁao(Git, GitHub, )
+# :triangular_flag_on_post: ULBRA
+
+## :triangular_flag_on_post: Meus estudos na ulbra 
+
+##### Ol√°, meu nome √© Diogo, eu estou estudando An√°lise e desenvolvimento de sistemas na ULBRA.
+
+##### Nesse reposit√≥rio voc√™ vai encontrar meus exerc√≠cios, atividades, provas e pesquisas que fiz durante todo o percuso da faculdade. 
+
+## :pencil2: Cadeiras que tive at√© o momento e oque elas ensinaram:
+
+#### :small_blue_diamond:Algoritimos 1(Logica de program√ß√£o)
+
+#### :small_blue_diamond:Introdu√ß√£o ao desenvolvimento web (HTML, CSS, Bootstrap e JavaScript)
+
+#### :small_blue_diamond:Introdu√ß√£o –∞ computa√ß√£o(Git, GitHub, )
+
+#### :small_blue_diamond:Laborat√≥rio de Software (Estou aprendendo Java e aprimorando l√≥gica de program√ß√£o)
+
+#### :small_blue_diamond:Engenharia de Software (Estou aprendendo sobre as melhores pr√°ticas na cria√ß√£o de softwares e suas etapas)
+
+#### :small_blue_diamond:Fundamentos de Banco de Dados (Estou aprendendo sobre as melhores pr√°ticas na modelagem e manuten√ß√£o de bancos de dados )
+
+#### :small_blue_diamond:Programa√ß√£o Web (Aprofundando todos os conceitos aprendidos em Introdu√ß√£o ao desenvolvimento Web e adicionando PHP, DOCKER e banco de dados)
+

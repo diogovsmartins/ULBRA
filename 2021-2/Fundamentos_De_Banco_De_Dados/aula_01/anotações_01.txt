@@ -1,0 +1,98 @@
+SGBD:
+Sistema Gerenciador de bancos de dados
+
+
+ex. de SGBDs
+	
+Open sources:
+mysql
+	postgres
+	firebird
+	sqlite é mais pra mobile e também para sistemas embarcados… 
+	
+	Proprietários
+		SQL server é da microsoft
+			windows azure plataforma de nuvem
+		Oracle é da Oracle...
+			case de sucesso é AWS… amazon web services.
+
+
+Modelagem de BD e SQL
+
+
+
+Conceitos
+Dado: 
+é imutável enquanto não houver uma ação.
+
+Informação:
+é um conjunto (merge) de dados que gera informação relevante.
+
+Conhecimento:
+um conjunto de informações com valor.
+
+Pipeline:
+rede protegida, um “túnel” em que nada de fora pode acessar?
+
+Aninhamento
+
+linguagem ubíqua?
+
+
+
+Quais dados eu tenho que armazenar para ter a informação solicitada:
+
+Eu preciso que o sistema me liste todo o conteúdo da disciplina de FBD…
+
+Por número de aula….e em cada numero de aula mostre o link do conteúdo e as atividades desta aula.
+
+
+
+??
+
+Quantidade de aulas?
+
+Número da aula - AutoIncrement pra ir indexando as aulas em ordem
+
+Conteúdo da aula? Teve atividade?
+
+Data da aula
+
+
+dados professor
+
+nome do usuário 
+senha 
+
+disciplina
+
+código
+nome da disciplina
+
+Conteúdo por disciplina
+
+nome da disciplina
+data postagem
+número do conteúdo
+Título
+descrição
+Tópicos
+
+
+Os tópicos tem lista de conteúdos
+
+título, descrição, data que postagem, link para acesso externo
+mídia, tipo (conteúdo ou uma atividade avaliativa)
+
+
+
+CRUD
+
+create read update delete
+
+
+o que é um banco de dados relacional? 
+
+é uma coleção de tabelas relacionadas.
+
+
