@@ -1,0 +1,36 @@
+SCRUM:
+Scrum é uma metodologia agil que trabalha fazendo pequenas entregas ao invés de fazer uma grande entrega.
+
+
+As metodologias ágeis utilizam o ciclo de vida como incremental e iterativo no modelo em epsiral, onde as entregas são feitas em etapas.
+Ex: um grande projeto é entregue em varias partes, cada parte adiciona uma funcionalidade, eles agregam valor para o cliente.
+
+As metodologias convencionais são feitas em cascata, todos os processos são feitos um após o outro ser concluido e depois tudo é entregue ao mesmo tempo.
+
+Kanban, dividir algo em listas para organizar oque tu tem pra fazer, oque ja foi feito e oque precisa ser entregue.
+
+Todas as metodologias ágeis são baseadas em Kanban.
+
+Metodologias ágeis são o metodo que será usado para implementar as fases do ciclo de vida do software.
+
+
+Extreme Programming (XP):
+Metodologia ágil para equipes pequenas e médias que desenvolvem software baseado em requisitos vagos e que se modificam rapidamente.
+Principais diferenças da XP para outras metodologias:
+Feedback constante
+Simplicidade
+Comunicação
+
+Baseado em 12 práticas
+1- Planejamento
+2-Entregas frequentes
+3- metafora, descrições sem utilizar termos tecnicos
+4-Projeto simples, menos é mais
+5- testes, validar se o software funciona corretamente
+6-Programação em pares, implementar os codigos em duplas, um digitando os codigos e outro procurando erros
+7-Refatoração, focaliza em melhorar o projeto, é feito apenas quando necessário, quando existe algo a ser melhorado ou arrumado
+8-Propriedade coletiva, o projeto pertence a todos os membros da equipe, qualquer pessoas que perceba que pode agregar valor ao codigo, pode faze-lo, desde que faça a bateria de testes necessárias.
+9-Integração Continua, é a pratica de interagir e construir o sistema de software varias vezes por dia, mantendo os programadores em sintonia, além de possibilitar processos rápidos.
+10-.40 horas de trabalho semanal, não deve fazer horas-extras constantemente.
+11-Cliente presente, é fundamental a participação do cliente durante todo o desenvolvimento do projeot.
+12-Codigo padrão, padronização na arquitetura do código, para que este possa ser compartilhado entre todos os programadores.
