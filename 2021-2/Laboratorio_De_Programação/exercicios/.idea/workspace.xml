@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e2d61c6-9195-48ac-8cff-d9ccc64c027a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_01/Exercicio_12_aula_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_01/exercico_13_aula_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_02/Exercicio08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_03/Exercicio01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula_03/Exercicio02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula_04/Exercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula_04/Exercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula_04/Exercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula_04/ExibirSubclasse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula_04/FiltrarPalavraImpropria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula_04/ReversorDeFrase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../2021-1/Introdução_a_computação/Ap1_iac/AP_1_IAC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-1/Introdução_a_computação/Ap1_iac/AP_1_IAC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_01/template_02/assets/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programação_Web/aula_01/template_02/assets/css/indexStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_01/template_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programação_Web/aula_01/template_02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/exercicios/dockerImagePhp/docker-lamp-pw-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programação_Web/exercicios/dockerImagePhp/docker-lamp-pw-master/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +28,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Exercicios_LDS" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Exercicios_LDS" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -65,6 +60,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1wVan0zFWnC3BIMfftczsWXvD2R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -75,14 +78,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Exercicio08">
-    <configuration name="Exercicio02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_03.Exercicio02" />
+  <component name="RunManager" selected="Application.ExibirSubclasse">
+    <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_04.Exercicio1" />
       <module name="Exercicios_LDS.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula_03.*" />
+          <option name="PATTERN" value="aula_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_02.Exercicio05" />
+    <configuration name="ExibirSubclasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_04.ExibirSubclasse" />
       <module name="Exercicios_LDS.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula_02.*" />
+          <option name="PATTERN" value="aula_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_02.Exercicio06" />
+    <configuration name="FiltrarPalavraImpropria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_04.FiltrarPalavraImpropria" />
       <module name="Exercicios_LDS.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula_02.*" />
+          <option name="PATTERN" value="aula_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_02.Exercicio07" />
+    <configuration name="FiltrarPalavrasImproprias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_04.FiltrarPalavrasImproprias" />
       <module name="Exercicios_LDS.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula_02.*" />
+          <option name="PATTERN" value="aula_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_02.Exercicio08" />
+    <configuration name="ReversorDeFrase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_04.ReversorDeFrase" />
       <module name="Exercicios_LDS.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula_02.*" />
+          <option name="PATTERN" value="aula_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Exercicio02" />
-      <item itemvalue="Application.Exercicio05" />
-      <item itemvalue="Application.Exercicio06" />
-      <item itemvalue="Application.Exercicio07" />
-      <item itemvalue="Application.Exercicio08" />
+      <item itemvalue="Application.Exercicio1" />
+      <item itemvalue="Application.ReversorDeFrase" />
+      <item itemvalue="Application.FiltrarPalavrasImproprias" />
+      <item itemvalue="Application.FiltrarPalavraImpropria" />
+      <item itemvalue="Application.ExibirSubclasse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercicio08" />
-        <item itemvalue="Application.Exercicio07" />
-        <item itemvalue="Application.Exercicio06" />
-        <item itemvalue="Application.Exercicio05" />
-        <item itemvalue="Application.Exercicio02" />
+        <item itemvalue="Application.ExibirSubclasse" />
+        <item itemvalue="Application.FiltrarPalavraImpropria" />
+        <item itemvalue="Application.FiltrarPalavrasImproprias" />
+        <item itemvalue="Application.ReversorDeFrase" />
+        <item itemvalue="Application.Exercicio1" />
       </list>
     </recent_temporary>
   </component>

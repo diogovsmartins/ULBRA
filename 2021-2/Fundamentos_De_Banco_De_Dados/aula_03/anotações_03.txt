@@ -1,0 +1,7 @@
+SQL injection= procurar brechas possiveis para injetar um script no banco de dados
+
+Entidade= algo do mundo externo que precisa  ser registrado e armazenado.
+
+Relações= algo que relaciona duas ou mais entidades que interagem uma com a outra e que gerarão dados que precisarão ser guardados.
+
+Relacionamento associativo= Quando as cardinalidades máximas são N pra N é gerado uma tabela com os atributos.
