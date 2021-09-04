@@ -1,0 +1,41 @@
+Metodo trim:É utilizado para retirar espaços nas extremidades do codigo.
+Ex: String trimTest=" ola mundo ";
+trimTest.trim();
+resultado = "ola mundo".
+
+Metodo equals: É utilizado para checar se a string é igual a outra.
+Ex: String equalsTest="ola mundo";
+equalsTest.equals("ola mundo");
+resultado=true.
+
+Metodo equalsIgnoreCase: É utilizado para o mesmo fim do metodo equals, mas diferente do metodo equals esse metodo ignora se existem uppercases na string e só verifica o conteudo, diferente do metodo equals.
+Ex: String ignoreCaseTest="Testando";
+ignoreCaseTest.equalsIgnoreCase("testando");
+resultado=true;
+
+Metodo compareTo: Compara se duas Strings são iguais, se for verdade retorna o valor 0, se não retorna outra coisa.
+Ex: String compareTo1 = "iguais";
+String compareTo2 = "iguais";
+System.out.println(a0.compareTo(a1)); // 0
+resultado=0;
+
+Metodo CompareToIgnoreCase: Compara se as strings são iguais ignorando se elas estão em uppercase ou não.
+Ex: String compare1="Testando";
+String compare2="testando";
+System.out.println(compare1.compareToIgnoreCase(compare2));
+resultado=0;
+
+Metodo replace: É utilizado para substituir caracteres desejados por outros caracteres.
+Ex: String replaceTest="Hello World";
+replaceTest.replace(" ", "");
+resultado=HelloWorld.
+
+Metodo valueOf: Converte qualquer valor de variaveis numéricas para uma representação do mesmo valor em um tipo String.
+Ex: int value=25;
+System.out.println(String.valueOf(value));
+resultado=25; porem em formato de string
+
+Metodo indexOf: É utilizado para retornar o index de um char dentro de uma string convertendo a string pra um array onde cada char ocupa uma posição.
+Ex: String indexTest= "Hello World";
+System.out.println(indexTest.indexOf("o"));
+resultado=4, porque ele começa do 0 que é o H e o primeiro "O" encontrado é o do Hello, então ele retorna o primeiro que encontrar.

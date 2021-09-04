@@ -1,0 +1,5 @@
+requisitos funcionais= coisas que o usuario interage, por exemplo um botão ele precisa ser clicado para disparar alguma função.
+
+requisitos não funcionais= coisas que o usuário não interage no software como uma ferramenta de auto save por exemplo que salva sem o usuario ter q fazer nada.
+
+stakeholders= coisas que se relacionam com o software, podem ser pessoas, empresas, organizações etc...
