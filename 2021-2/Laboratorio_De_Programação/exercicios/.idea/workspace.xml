@@ -5,9 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e2d61c6-9195-48ac-8cff-d9ccc64c027a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/mysql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/bd/ConnectClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/controllers/ClientsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/models/ClientsModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/models/UserModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/views/clients/ListClients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/views/main/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/views/main/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/views/templates/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/admin/views/templates/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/controller/ClientController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/controller/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/client/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/client/registerView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/pages/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/pages/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/pages/products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/templates/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programação_Web/aula_08/www/view/templates/header.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,17 +53,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Exercicios_LDS" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Exercicios_LDS" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -78,11 +94,12 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager" selected="Application.ExibirSubclasse">
+  <component name="RunManager" selected="Application.Exercicio1">
     <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula_04.Exercicio1" />
       <module name="Exercicios_LDS.main" />
@@ -166,6 +183,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1e2d61c6-9195-48ac-8cff-d9ccc64c027a" name="Default Changelist" comment="" />
@@ -178,6 +198,10 @@
       <workItem from="1630792850477" duration="632000" />
       <workItem from="1630962741389" duration="107000" />
       <workItem from="1630962904261" duration="15000" />
+      <workItem from="1631059146524" duration="329000" />
+      <workItem from="1631059513729" duration="47000" />
+      <workItem from="1631059607325" duration="172000" />
+      <workItem from="1631656875856" duration="364000" />
     </task>
     <servers />
   </component>
@@ -221,5 +245,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
