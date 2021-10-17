@@ -1,0 +1,21 @@
+*{
+    margin:0px auto;
+}
+header{
+    background-color: goldenrod !important;
+    margin-bottom: 0px;
+}
+footer{
+    background-color: goldenrod !important;
+    margin-bottom: 0px;
+    min-height: 150px !important;
+}
+
+nav{
+    background-color: rgb(194, 194, 233);
+    
+}
+section{
+    background-color: rgb(66, 65, 65) ;
+    color: rgb(255, 255, 255);
+}
