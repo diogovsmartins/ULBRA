@@ -1,12 +1,14 @@
 package exercicios.Ap_2;
 
-import java.text.FieldPosition;
-import java.text.Format;
-import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class Messages {
     Scanner input= new Scanner(System.in);
+    SimpleDateFormat dateFormatter= new SimpleDateFormat("dd/MM/yyyy");
+    SimpleDateFormat monthFirstFormatter = new SimpleDateFormat("MM/dd/yyyy");
+
+
 
     public String msgInt(){
         return "Type a Integer number: ";
@@ -24,5 +26,9 @@ public class Messages {
         return "Type a letter or a number: ";
     }
 
+    public String msgDate(){
+        return "Type a date ex: dd/MM/yyyy: ";
+    }
 
+    public String msgEmail(){return "Type your email: ";}
 }
