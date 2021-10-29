@@ -1,0 +1,23 @@
+Sendo: Rafaela
+
+Posso: Cadastrar clientes
+
+Para que: possa manter um registro dos alugueis e uma lista de clientes bem organizada.
+
+Critérios de aceite:
+
+É preciso ter todos os dados do cliente e ele precisa estar fazendo um aluguel.
+
+
+
+Sendo: Rafaela 
+
+Posso: Cadastrar os temas das festas com seus objetos e valores
+
+Para que: Possa ter um controle dos itens que serão alugados e dos valores que serão cobrados 
+
+para poder dar descontos com base em um preço palpável.
+
+Critérios de aceite:
+
+É preciso ter todos os itens dos temas que serão cadastrados para poder cadastra-los com sucesso bem como ter estipulado um valor.

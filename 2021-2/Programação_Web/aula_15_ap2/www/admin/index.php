@@ -15,7 +15,7 @@ if(!isset($_GET['controller'])){
             require_once('./controllers/MainController.php');
             $Main= new MainController();
             if(!isset($_GET['action'])){
-                //xxxx
+                $Main->index();
             }else{
                 switch ($_REQUEST['action']) {
                     case 'index':
@@ -38,7 +38,7 @@ if(!isset($_GET['controller'])){
         require_once('./controllers/UserController.php');
         $User= new UserController();
         if(!isset($_GET['action'])){
-            $User->index();
+            $User->login();
         }else{
             switch ($_REQUEST['action']) {
                 case 'validatelogin':

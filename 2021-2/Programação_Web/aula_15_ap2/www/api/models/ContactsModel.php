@@ -21,13 +21,13 @@
                 VALUES(
                     '{$arrayContact['name']}',
                     '{$arrayContact['email']}',
-                    '{$arrayContact['message']}'
+                    '{$arrayContact['message']}',
                     '{$arrayContact['status']}',
                     '{$arrayContact['description']}'
                 )
             ";
-            return $this->conn-> query($sql);
-            //arrumar aq o retorno 
+            $this ->result = $this->conn-> query($sql);
+            return $this->conn-> insert_contact;
         }
 
         public function listContacts(){
