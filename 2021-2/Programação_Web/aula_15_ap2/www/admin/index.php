@@ -28,13 +28,12 @@ if(!isset($_GET['controller'])){
                     
                     case 'logout':
                         $Main->logout();
-                         
+                    break;
                 }
             }
         break;
         
         case 'user':
-
         require_once('./controllers/UserController.php');
         $User= new UserController();
         if(!isset($_GET['action'])){
@@ -50,7 +49,7 @@ if(!isset($_GET['controller'])){
 
         case 'clients':
             require_once('./controllers/ClientsController.php');
-            $Client= new ClientsController;
+            $Client= new ClientsController();
 
             if(!isset($_GET['action'])){
                 $Client->listClients();

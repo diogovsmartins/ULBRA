@@ -8,12 +8,8 @@ class ConnectClass{
         $password='test';
         $dbName='pw_exemple';
 
-       $this-> conn= new mysqli($serverName, $userName, $password, $dbName);
-
-
-       if($this->conn->connect_error){
-           die("Conexão com o banco de dados falhou ->". $this->conn->connect_error);
-       }
+        $this->conn= new mysqli($serverName, $userName, $password, $dbName);
+       
     }
 
     public function getConn(){

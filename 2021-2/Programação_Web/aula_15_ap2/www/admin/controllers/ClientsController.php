@@ -30,8 +30,6 @@ class ClientsController{
     }
 
     public function createClientAction(){
-        $this->ClientModel= new ClientsModel();
-
         $arrayClient['name']=$_POST['name'];
         $arrayClient['phone']=$_POST['phone'];
         $arrayClient['email']=$_POST['email'];
@@ -53,7 +51,6 @@ class ClientsController{
     }
 
     public function updateClientAction($id){
-        $this->ClientModel= new ClientsModel();
 
         $arrayClient['idClient']=$id;
         $arrayClient['name']=$_POST['name'];

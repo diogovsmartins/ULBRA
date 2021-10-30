@@ -45,12 +45,12 @@ Class ClientsModel{
     public function updateClient($arrayClient){
         $sql="
             UPDATE clients
-               set
+               SET
                     name='{$arrayClient['name']}',
                     phone='{$arrayClient['phone']}',
                     email='{$arrayClient['email']}',
                     address='{$arrayClient['address']}'
-                where
+                WHERE
                     idClient={$arrayClient['idClient']}
         ";
         return $this->conn-> query($sql);
