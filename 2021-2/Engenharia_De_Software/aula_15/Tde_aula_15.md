@@ -18,7 +18,7 @@
 
 **Para que:** Possa ter um controle de quem está alugando os temas
 
-**Critérios de aceite:** O cliente precisa informar dados para que possa ser cadastrado.
+**Critérios de aceite:** O cliente precisa informar todos os dados para que possa ser cadastrado.
 
 ## :money_with_wings: **Alugar temas:**
 
@@ -60,7 +60,7 @@
 
 **Quando:** Clicar no botão **deletar cliente.*
 
-**Desconto aplicável a este cliente.Então:** O sistema mostrara um aviso perguntando se o usuário realmente quer **deletar** aquele cliente dando-lhe a opção de clicar no botão escrito "**sim**" ou no botão escrito "**não**", caso o usuário clique no botão "**sim**" o sistema não irá mais mostrar aquele cliente e marcará ele como "**Inativo**" no banco de dados. Caso o cliente clique em "**não**" nada acontece e o cliente volta pra tela de consulta.
+**Então:** O sistema mostrara um aviso perguntando se o usuário realmente quer **deletar** aquele cliente dando-lhe a opção de clicar no botão escrito "**sim**" ou no botão escrito "**não**", caso o usuário clique no botão "**sim**" o sistema não irá mais mostrar aquele cliente e marcará ele como "**Inativo**" no banco de dados. Caso o cliente clique em "**não**" nada acontece e o cliente volta pra tela de consulta.
 
 ----------
 
@@ -96,8 +96,9 @@
 
 **Quando:** Ele clicar no botão de "**Consultar**"
 
-**Então:** O sistema irá verificar a data de **cadastro** que consta no cadastro do cliente **se o cliente estiver cadastrado a pelo menos um ano**, o sistema mostrara uma mensagem dizendo "**Desconto aplicável a este cliente**" e dará um desconto de 10% naquele aluguel.
+**Então:** O sistema irá verificar a data de **cadastro** que consta no cadastro do cliente **se o cliente estiver cadastrado a pelo menos um ano**, o sistema mostrara uma mensagem dizendo "**Desconto aplicável a este cliente**" e dará um desconto de 10% naquele aluguel do contrário mostrará uma mensagem dizendo *"Desconto não aplicável à esse cliente"*.
 
 -----
 
  
+
