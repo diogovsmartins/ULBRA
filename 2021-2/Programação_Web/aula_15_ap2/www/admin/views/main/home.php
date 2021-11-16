@@ -1,3 +1,0 @@
-<h1 class="text-warning">Home</h1>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore delectus aliquid ad accusamus, iste excepturi error mollitia architecto saepe tenetur libero ex, harum minus ipsum sapiente officia ipsa ratione. Nesciunt.
-Rem, itaque laboriosam cum fugiat alias corporis minus recusandae! Amet, labore illo fuga numquam suscipit, commodi ad voluptates iste minima tenetur officiis. Dignissimos laboriosam necessitatibus beatae placeat consequuntur pariatur nesciunt?</p>
