@@ -43,9 +43,11 @@ $routes->get('/client/(:num)', 'Client::detailClient/$1');
 
 ///Área admnistrativa
 
-$routes->get('/admin','Admin\Admin::index');
-$routes->get('/admin/login','Admin\Admin::login');
+$routes->get('/admin', 'Admin\Admin::index');
+$routes->get('/admin/login', 'Admin\Admin::login');
+$routes->get('/admin/login', 'Admin\Admin::logout');
 
+$routes->add('/admin/validate-login', 'Admin\User::validateLogin');
 
 /*
  * --------------------------------------------------------------------
