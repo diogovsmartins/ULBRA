@@ -27,10 +27,10 @@
        <h1>programação web</h1>
        <p>Code Igniter</p>
 </header>
-   <div class="container-fluid bg-light text-dark">
+   <div class="container-fluid bg-light">
         <div class="row">
             <nav class="col-2 p-2 bg-secondary text-warning">
-                <h2>Menu</h2>
+                <h2 class="text-dark" >Menu</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a href="<?=base_url('home')?>" class="nav-link text-warning">Home</a>
@@ -45,7 +45,7 @@
                         <a href="<?=base_url('contact')?>" class="nav-link text-warning">Contact</a>
                     </li>
                 </ul>
-                <h2>Clients</h2>
+                <h2 class="text-dark">Clients</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a href="<?=base_url('client')?>" class="nav-link text-warning">List Clients</a>

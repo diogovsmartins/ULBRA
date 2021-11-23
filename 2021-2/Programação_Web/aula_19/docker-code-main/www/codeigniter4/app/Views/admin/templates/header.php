@@ -23,24 +23,24 @@
 </head>
 <body>
 
-<header class="jumbotron text-center mb-0">
+<header class="jumbotron text-center mb-0 bg-dark text-warning">
        <h1>Página do Adm</h1>
        <a href="<?=base_url('admin/logout')?>">Sair</a>
 
 </header>
-   <div class="container-fluid">
+   <div class="container-fluid bg-light">
         <div class="row">
-            <nav class="col-2 p-3">
-                <h2>Menu</h2>
+            <nav class="col-2 p-2 bg-secondary text-warning">
+                <h2 class="text-dark">Menu</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="?controller=main&action=logout" class="nav-link">Logout</a>
+                        <a href="?controller=main&action=logout" class="nav-link text-warning">Logout</a>
                     </li>
                     <li class="nav-item">
-                        <a href="?controller=clients&action=listClients" class="nav-link">List Clients</a>
+                        <a href="?controller=clients&action=listClients" class="nav-link text-warning">List Clients</a>
                     </li>     
                     <li class="nav-item">
-                        <a href="?controller=clients&action=createClient" class="nav-link">Crete new Client</a>
+                        <a href="?controller=clients&action=createClient" class="nav-link text-warning">Crete new Client</a>
                     </li>      
                 </ul>
             </nav>

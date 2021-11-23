@@ -9,7 +9,7 @@ class User extends Controller{
 
     public function validateLogin(){
         $userName = $this -> request -> getVar('userName');
-        $password= $this -> request -> getVar('password');
+        $userPassword= $this -> request -> getVar('password');
 
         $userModel= new UserModel();
 

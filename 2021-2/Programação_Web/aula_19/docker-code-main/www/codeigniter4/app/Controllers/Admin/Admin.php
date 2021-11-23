@@ -9,9 +9,9 @@ class Admin extends Controller{
     public function index(){
         $session = \Config\Services::session();
         if($session->has('user')):
-            /* echo view('Admin/templates/header');
-            echo view('Admin/templates/home');
-            echo view('Admin/templates/footer'); */
+            echo view('admin/templates/header.php');
+            echo view('admin/templates/home.php');
+            echo view('admin/templates/footer.php'); 
 
         else: 
             return redirect()->to(base_url('admin/login'));
