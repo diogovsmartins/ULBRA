@@ -16,11 +16,11 @@ public class Main {
         cao3.ler();
         canil.addFim(cao3);
 
-        Cao cao4 = new Cao();
+        /*Cao cao4 = new Cao();
         cao4.ler();
-        canil.addFim(cao4);
+        canil.addFim(cao4);*/
 
-        canil.removerFim();
+        System.out.println(canil.removerPorNome("diogo"));
         canil.listar();
     }
 }

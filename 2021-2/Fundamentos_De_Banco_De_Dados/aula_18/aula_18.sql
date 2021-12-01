@@ -142,8 +142,6 @@ VALUES
   ('Pedro Henrique'),
   ('Lucas'),
   ('Frederico');
-	
-    
 
 INSERT INTO
   produtos (descricao, valor_unit)
@@ -352,8 +350,7 @@ VALUES
   ('2033-07-03 16:54:19', 90),
   ('2023-11-09 04:07:02', 85),
   ('2028-06-15 19:14:09', 12);
-  
-  
+
   INSERT INTO
   notas_itens (id_produto, id_nota, quantidade, valor_unit)
 VALUES
@@ -458,32 +455,139 @@ VALUES
   (1, 73, 388.51, 127.00),
   (67, 54, 856.48, 349.00);
 
-  
 
-  
-  ---pegar todas as notas do mes de setembronotas_itens
-select * 
-	from notas
-  		where data_emissao between '2000-09-01' and '2021-09-30'
-order by data_emissao DESC
 
-select *
-from clientes
-order by nome ASC
-    
-    
-/*- FUS que retorne quais produtos foram comprados
+-- sql joins
+/*
+clientes (id, nome)
+produtos (id, descricao, valor_unit)
+notas (Id, data_emissao, id_cliente)
+notas_itens (id, id_nota, id_produto, quantidade, val_unit) */
+
+-- FUS que retorne quais notas foram emitidas no mês de set de 2021
+-- ordenadas pelas notas mais recentes...
+select  *
+FROM    notas
+WHERE   data between '2021-09-01' and '2021-09-30'
+order by data DESC
+
+-- FUS que retorne quais notas foram emitidas no mês de set de 2021
+-- ordenadas pelas notas mais recentes... 
+-- E TBM que mostre o cliente de cada nota
+select  n.id, data_emissao, id_cliente, c.nome
+FROM    notas n
+            inner join clientes c 
+                on n.id_cliente = c.id
+WHERE   data_emissao between '2000-01-01' and '2021-09-30'
+order by data_emissao desc, nome ASC, valor_unit desc
+
+2021-05-09
+2021-05-05	Alan
+2021-05-05	Cassio	
+2021-05-05	Roger	
+2021-05-05	Willian
+
+
+-- FUS que retorne quais produtos foram comprados
 -- no natal do ano passado. Mostre o nome dos produtos e o valor no qual
--- eles foram comprados.*/  
+-- eles foram comprados.
+-- mostre somente os produtos vendidos com valor acima de 500 e 
+-- que os produtos no qual os valores da época estão menores que os 
+-- valores atuais.
 
-select n.id,produtos.descricao, produtos.valor_unit
-  from notas n
-      inner join notas_itens ni
-          on n.id=ni.id
-      inner join produtos produtos
-      	  on ni.id_produto=produtos.id
-where n.data_emissao between '2000-01-25' and '2021-09-30'
+select  n.id, n.data_emissao, ni.id_produto, p.descricao as produto, 
+        ni.valor_unit as preco_venda_na_epoca, p.valor_unit as valor_atual
+from    notas n 
+            inner join notas_itens ni
+                on ni.id_nota = n.id
+            inner join produtos p 
+                on p.id = ni.id_produto
+WHERE   n.data_emissao between '2000-01-01' and '2021-09-30'
+		and ni.valor_unit>=500 and ni.valor_unit>p.valor_unit
+order by ni.valor_unit asc
+
+/*
+1- onde está a inf que diz que o produto foi 
+    comprado por alguem em alguma data?  Em notas_itens e Notas
+2- como eu faço pra descobrir o tempo que um prod. foi comprado?
+    na tab notas no atributo data_emissão
+3- onde guarda o nome de cada produto? em produtos
+4- eu tenho 2 val_uni.. qual eu devo usar? qual me mostra a inf. de compra?
+o val_uni da tabela notas_itens
+*/
 
 
-select * 
-from notas_itens
+
+
+select  n.id, n.data_emissao, ni.id_produto, p.descricao as produto, 
+        ni.valor_unit as preco_venda_na_epoca, p.valor_unit as valor_atual
+from    notas n 
+            inner join notas_itens ni
+                on ni.id_nota = n.id
+            inner join produtos p 
+                on p.id = ni.id_produto
+WHERE   n.data_emissao between '2010-01-01' and '2021-12-31'
+        and ni.valor_unit>=500 and ni.valor_unit>p.valor_unit
+order by n.data_emissao asc
+  
+  -- pegando todas as vendas entre 2010 e 2020 somente do dia 20.
+  -- postgres
+  select *
+  from notas
+   where EXTRACT(day from data_emissao)=20 and 
+   		(EXTRACT(YEAR from data_emissao)>=2010 and EXTRACT(YEAR from data_emissao)<=2021)
+ 
+ 
+ -- mysql
+ where day(data_emissao)=25 and (year(data_emissao)>=2010 and year(data_emissao)<=2021)
+  select DISTINCT EXTRACT(year from data_emissao) from notas
+
+
+-- faça um sql quais clientes que mais compraram produtos
+
+group by????
+
+Salas
+316
+326
+324
+
+alunos_Salas
+id_sala    id_aluno     nome_aluno
+316         100         Maria
+316         101         Rodrigo
+316         102         Digo
+316         103         Douglas
+326         104         Cássio
+326         105         Rafa
+324         106         Tiago    
+
+-- quanto alunos eu tenho em cada sala?
+select id_sala, count(id_aluno) as quantos
+from alunos_salas
+group by sala
+
+sala    num_alunos
+316     4
+326     2
+324     1
+
+
+-- qual os dois clientes que mais compraram
+  select id_cliente, count(ID) AS QUANTOS
+  from notas
+  group by id_cliente
+  ORDER BY QUANTOS DESC
+  LIMIT 2
+
+-- quais são os 5 produtos mais vendidos numa data
+SELECT	    ni.id_produto, pr.descricao, sum(ni.quantidade) as quantidade_total
+FROM 	    notas_itens ni 
+                join produtos pr
+                    on ni.id_produto = pr.id
+                JOIN notas n 
+                    on ni.id_nota = n.id
+where 	    n.data_emissao between '2010-01-01' and '2021-12-31'
+GROUP BY    ni.id_produto, pr.descricao
+ORDER BY    quantidade_total DESC
+limit 5

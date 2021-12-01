@@ -96,21 +96,77 @@ public class Lista {
             return false;
         }
     }
-
-    public boolean removerFim(){
-        if(!isEmpty()){
-            Cao aux=primeiro;
-            while (aux.proximo!=ultimo){
-                aux=aux.proximo;
+    public boolean remover(int x) {
+        if (x == 0) {
+            return this.remover();
+        } else if (x >= tam) {
+            return false;
+        } else if (x == tam - 1) {
+            return this.removerFim();
+        } else {
+            int cout = 0;
+            Cao elemento = this.primeiro;
+            Cao anterior = this.primeiro;
+            while (x > cout) {
+                cout++;
+                anterior = elemento;
+                elemento = elemento.proximo;
             }
-            this.ultimo=aux;
-            aux.proximo=null;
-            tam--;
-            System.out.println("Ultimo item removido com sucesso.");
+            anterior.proximo = elemento.proximo;
+            this.tam--;
             return true;
-        }else{
-            System.out.println("A lista está vazia, não é possivel deletar nada.");
+        }
+    }
+        /*public boolean removerFim () {
+            if (!isEmpty()) {
+                Cao aux = primeiro;
+                while (aux.proximo != ultimo) {
+                    aux = aux.proximo;
+                }
+                this.ultimo = aux;
+                aux.proximo = null;
+                tam--;
+                System.out.println("Ultimo item removido com sucesso.");
+                return true;
+            } else {
+                System.out.println("A lista está vazia, não é possivel deletar nada.");
+                return false;
+            }
+        }*/
+        public boolean removerFim(){
+            if(this.primeiro==null){
+                System.out.println("Lista vazia");
+                return false;
+            }else{
+                Cao aux=primeiro;
+                Cao penultimo=primeiro;
+                while (aux.proximo!=null){
+                    penultimo=aux;
+                    aux=aux.proximo;
+                }
+                penultimo.proximo=null;
+                this.ultimo=penultimo;
+                this.tam--;
+                return true;
+            }
+        }
+
+        public boolean removerPorNome(String nome){
+            if(!isEmpty()) {
+                Cao aux = primeiro;
+                int posição;
+                for (posição = 0; posição <= tam - 1; posição++) {
+                    if (aux.nome.equalsIgnoreCase(nome)) {
+                        remover(posição);
+                        return true;
+                    }
+                    aux = aux.proximo;
+                }
+            }else{
+                System.out.println("Não existem cachorros para serem deletados.");
+                return false;
+            }
             return false;
         }
     }
-}
+
