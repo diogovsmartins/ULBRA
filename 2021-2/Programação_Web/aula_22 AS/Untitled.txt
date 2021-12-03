@@ -1,0 +1,13 @@
+Vantagens de utilizar code igniter:
+
+Velocidade de desenvolvimento: Facilita a criação de diversas funções pois já possui algumas controllers e models com metodos próprios e robustos para diversas finalidades.
+
+Padroniza o desenvolvimento: Aumenta a coesão e facilita a manutenção e leitura do código pois as coisas precisam ser feitas de um jeito específico devido às estruturas propostas pelo framework.
+
+Facilita trabalhar com banco de dados: Facilita na criação de querys no banco de dados pois já possui diversos metodos próprios.
+
+Flexibilidade: O code igniter propõe o uso de suas ferramentas mas não limita totalmente o desenvolvedor à sua estrutura possibilitando maior criatividade e flexibilidade para os times mudarem oque for preciso caso o framework não atenda totalmente às necessidades do projeto ou de um problema específico.
+
+Controle de fluxo: Proporciona maior controle de fluxo para a aplicação visto que é possivel utilizar rotas setadas e amigaveis ao usuário.
+
+
