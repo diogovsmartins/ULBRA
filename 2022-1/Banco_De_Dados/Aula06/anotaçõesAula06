@@ -1,0 +1,4 @@
+Views são uma consulta resolvida das tabelas que ela enxergava durante sua criação
+Os dados são atualizados automaticamente sempre que uma das tabelas que ela "enxerga" recebe uma alteração
+São muito úteis para facilitar consultas que seriam muito caras ou complexas no BD, por exemplo uma consulta com varios joins e tabelas grandes
+Tomar cuidado com o numero de views criadas e não criar views desnecessárias, a manutenção do banco de dados será exponencialmente maior caso muitas views sejam criadas já que mesmo ela referenciando os dados, caso a tabela receba uma adição de dado ou algo do tipo a view terá que ser modificada também para refletir essa nova tabela

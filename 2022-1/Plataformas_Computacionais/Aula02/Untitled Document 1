@@ -1,0 +1,12 @@
+Memórias Optane, a tecnologia que promete oferecer velocidade de acesso à dados até 1400% mais rapidas tanto em HDS quanto em SSDS, isso é possivel porque ao memorizar os dados mais utilizados, o acelerador de sistema inteligente e adaptável pode acessar e guardar seus documentos, jogos, imagens, vídeos e vários aplicativos mais perto dos processadores do computador, fazendo com que a busca dos mesmos se torne muito mais rápida.
+Pode se dizer que o optane é uma evolução da tecnologia DRAM que é o acronimo para (Dynamic Random Access Memory) que é utilizada para acessar os dados de forma rapida e memorizar suas posições para que as futuras pesquisas sejam mais rápidas, no entanto o DRAM é um tipo de memória volátil e portanto caso o computador seja desligado esses "caminhos" que ficaram salvos para encontrar o arquivo são perdidos e quando eles forem solicitados novamente a DRAM vai procura-los e salvar novamente esse caminho. Porém ao juntar  isso as memórias Optane também guardam as posições dos arquivos solicitados mas podem salvar suas posições mesmo após os computadores serem desligados, fazendo com que a próxima vez que eles sejam solicitados seja mais fácil de encontra-las proporcionando velocidades pelo menos 2 vezes mais rápidas na busca de dados.
+Em 2019 a Intel lançou o Intel Optane Memory H10, que é uma evolução direta para os SSHDS, trazendo o melhor dos dois, armazenamento e velocidade utilizando uma memória de altissima performance e um armazenamento flash e mantendo seu tamanho diminuto e que promete entregar até 32gb de memória optane e 1TB de memória comum.
+
+
+https://www.intel.com.br/content/www/br/pt/products/sku/189611/intel-optane-memory-h10-with-solid-state-storage-intel-optane-memory-32gb-intel-qlc-3d-nand-ssd-1tb-m-2-80mm-pcie-3-0/specifications.html
+
+https://www.tecmundo.com.br/produto/140403-novo-intel-optane-memory-h10-evolucao-direta-sshds.htm
+
+https://www.hp.com/br-pt/shop/tech-takes/memoria-intel-optane-o-que-e-e-por-que-voce-precisa
+
+https://cbltech.com.br/blog/novas-tecnologias-pcs-mais-rapidos-futuro.html
