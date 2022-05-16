@@ -1,0 +1,16 @@
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/Aula06
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/Aula06.deps.json
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/Aula06.runtimeconfig.json
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/Aula06.runtimeconfig.dev.json
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/Aula06.dll
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/ref/Aula06.dll
+/home/diogo/RiderProjects/Aula06/Aula06/bin/Debug/net5.0/Aula06.pdb
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.csproj.AssemblyReference.cache
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.GeneratedMSBuildEditorConfig.editorconfig
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.AssemblyInfoInputs.cache
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.AssemblyInfo.cs
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.csproj.CoreCompileInputs.cache
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.dll
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/ref/Aula06.dll
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.pdb
+/home/diogo/RiderProjects/Aula06/Aula06/obj/Debug/net5.0/Aula06.genruntimeconfig.cache

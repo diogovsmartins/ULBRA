@@ -1,0 +1,90 @@
+Superior de Tecnologia em Análise e Desenvolvimento de Sistemas
+Banco de Dados
+
+
+Exercícios
+
+Crie uma tabela Pessoas que contenha as colunas id, nome, sexo e data_nascimento.
+Crie uma Store Procedure onde sejam possíveis passar como parâmetro as informações para Nome, Sexo e Data_Nascimento. Esta Stored Procedure deverá consultar no banco de dados o último ID gerado na tabela de Pessoas, incrementar este ID e inserir um registro nesta tabela com os dados enviados por parâmetro.
+
+DROP PROCEDURE IF EXISTS insert_pessoa;
+DELIMITER $$
+CREATE PROCEDURE insert_pessoa(p_nome VARCHAR(50), p_sexo VARCHAR(20), p_data_de_nascimento DATE)
+BEGIN
+	DECLARE next_id INT;
+		SET next_id=(SELECT MAX(idPessoa) + 1 FROM pessoas);
+		INSERT INTO pessoas (idPessoa, nome, sexo, data_de_nascimento)
+			VALUES(next_id, p_nome, p_sexo, p_data_de_nascimento);
+            SELECT * FROM pessoas;
+END $$
+DELIMITER $$
+
+
+
+Crie uma Stored Procedure que mostre quantos Homens e quantas Mulheres têm cadastrados. 
+
+DROP PROCEDURE IF EXISTS select_quantidade_por_sexo;
+DELIMITER $$
+CREATE PROCEDURE select_quantidade_por_sexo(p_sexo VARCHAR(20))
+BEGIN
+	IF(p_sexo="Homem") THEN
+		SELECT count(idPessoa)
+        FROM pessoas
+        WHERE sexo Like "%Homem%";
+        
+    ELSEIF(p_sexo="Mulher") THEN
+		SELECT count(idPessoa) as quantidade
+        FROM pessoas 
+        WHERE sexo Like "%Mulher%";
+        
+    END IF;
+END$$
+DELIMITER $$
+
+
+
+
+Crie uma Stored Procedure que mostre quantos Homens são menores e maiores de idade, e quantas Mulheres são maiores e menores de idade.
+
+DROP PROCEDURE IF EXISTS select_maiores_de_idade;
+DELIMITER $$
+CREATE PROCEDURE select_maiores_de_idade(p_sexo VARCHAR(20))
+BEGIN
+	IF(p_sexo="Homem") THEN
+		SELECT *
+		FROM pessoas
+		WHERE sexo LIKE "Homem" and data_de_nascimento < "2004-01-01";
+    ELSEIF(p_sexo="Mulher") THEN
+		SELECT *
+		FROM pessoas
+		WHERE sexo LIKE "Mulher" and data_de_nascimento < "2004-01-01";
+	END IF;
+END$$
+DELIMITER $$
+
+
+
+Crie uma Stored Procedure que receba dois Números. Esta Procedure ao ser executada deverá mostrar o retorno obtido se estes dois números fossem somados, diminuídos, multiplicados e divididos.
+
+DROP PROCEDURE IF EXISTS calculadora;
+DELIMITER $$
+CREATE PROCEDURE calculadora(operador CHAR(1), numero1 double, numero2 double)
+BEGIN
+	DECLARE result double;
+	IF(operador="+") THEN
+		SET result=numero1 + numero2;
+	ELSEIF(operador="-") THEN
+		SET result=numero1 - numero2;
+	ELSEIF(operador="/") THEN
+		SET result=numero1 / numero2;
+	ELSEIF(operador="*") THEN
+		SET result=numero1 * numero2;
+	END IF;
+		SELECT result;
+END$$
+DELIMITER $$
+
+
+
+
+

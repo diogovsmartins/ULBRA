@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaAPI", "AgendaAPI\AgendaAPI.csproj", "{5F73FD18-1702-43A0-AD62-2221E5A913FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F73FD18-1702-43A0-AD62-2221E5A913FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F73FD18-1702-43A0-AD62-2221E5A913FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F73FD18-1702-43A0-AD62-2221E5A913FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F73FD18-1702-43A0-AD62-2221E5A913FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
