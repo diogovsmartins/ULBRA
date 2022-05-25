@@ -12,7 +12,6 @@
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Aula12.runtimeconfig.json
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Aula12.runtimeconfig.dev.json
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Aula12.dll
-/home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/ref/Aula12.dll
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Aula12.pdb
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -26,7 +25,6 @@
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 /home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/staticwebassets/Aula12.StaticWebAssets.Manifest.cache
-/home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/staticwebassets/Aula12.StaticWebAssets.xml
 /home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/scopedcss/bundle/Aula12.styles.css
 /home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/Aula12.RazorTargetAssemblyInfo.cache
 /home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/Aula12.csproj.CopyComplete
@@ -36,3 +34,5 @@
 /home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/Aula12.genruntimeconfig.cache
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Humanizer.dll
 /home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/diogo/RiderProjects/Aula12/bin/Debug/net5.0/Aula12.StaticWebAssets.xml
+/home/diogo/RiderProjects/Aula12/obj/Debug/net5.0/refint/Aula12.dll

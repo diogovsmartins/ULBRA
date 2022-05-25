@@ -1,14 +1,12 @@
-using System.Collections.Generic;
 using Aula12.Models.Domain;
 
-namespace Aula12.Models.Repositories
+namespace Aula12.Models.Repositories;
+
+public interface IClientRepository
 {
-    public interface IClientRepository
-    {
-        Client GetClientById(int id);
-        List<Client> GetAllClients();
-        void InsertClient(Client client);
-        void UpdateClient(Client client);
-        void DeleteClient(int id);
-    }
+    Client GetClientById(int id);
+    List<Client> GetAllClients();
+    void InsertClient(Client client);
+    void UpdateClient(Client client);
+    void DeleteClient(int id);
 }
