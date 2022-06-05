@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/diogo/RiderProjects/Aula13/Aula13.csproj",
+      "projectUniqueName": "/home/diogo/dev/ULBRA/2022-1/POO/Aula13/Aula13.csproj",
       "projectName": "Aula13",
-      "projectPath": "/home/diogo/RiderProjects/Aula13/Aula13.csproj",
+      "projectPath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula13/Aula13.csproj",
       "packagesPath": "/home/diogo/.nuget/packages/",
-      "outputPath": "/home/diogo/RiderProjects/Aula13/obj/",
+      "outputPath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula13/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/diogo/.nuget/NuGet/NuGet.Config"

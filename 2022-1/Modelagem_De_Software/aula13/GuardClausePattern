@@ -1,0 +1,61 @@
+Guard clause, ou bouncer pattern, é um pattern muito comum em qualquer linguagem. Seu principal benefício é diminuir o uso de ifs e elses aninhados no código para facilitar a manutenção e escalabilidade do código a longo prazo. Esse pattern funciona da seguinte forma: sempre que você precisar validar algum dado no início de algum fluxo, ou verificar alguma condição que seja essencial para o fluxo do código, você pode utilizar um guard clause, e caso essa condição não seja atingida, sair do método ou jogar um exception imediatamente, já que sem ela não faz sentido continuar a execução daquele bloco de código. O Guard Clause é um pattern muito fácil de implementar, e pode ser bem útil para evitar null pointers e controlar melhor o fluxo da aplicação como um todo em alguns casos específicos.
+
+por exemplo: 
+inserir um usuário no BD, não faria sentido inserir um usuário com todos os campos nulos, então normalmente essa situação é tratada pela aplicação de antemão, e acaba sendo comum criar vários ifs e elses para validar esses campos.
+
+public void CreateUser(String userName, String password)
+{
+  if (userName == null)
+  {
+    // Do something...
+  }
+  else
+  {
+    // Do something else...
+    if (password == null)
+    {
+      // Do something...
+    }
+    else
+    {
+      // Do something else...
+    }
+  }
+}
+ 
+ No código acima é necessário verificar se os valores são nulos antes de executar o comportamento, já que eles são a pré condição para que esse código possa ser executado. No entanto ele não está tão fácil de ler, e existem muitos ifs e elses aninhados com muitas chaves, e com o tempo, se isso não for refatorado, a tendência é que provavelmente fique pior, fazendo um código menos legível ainda e mais difícil de dar manutenção. Esse é um dos casos em que o Guard Clause diminuiria bastante a complexidade e aumentaria a legibilidade do código com muita facilidade.
+
+Exemplo:
+   public void CreateUser(String userName, String password)
+{
+  if (userName == null)
+    throw new NullArgumentException(nameof(userName));
+  if (password == null)
+    throw new NullArgumentException(nameof(password));
+  // Do something...
+}
+     
+Nesse exemplo, o Guard Clause é utilizado para garantir que o código não vai ser executado caso não receba os parâmetros, garantindo que não ocorrerão possíveis null pointers, caso a aplicação não esteja preparada para tratar isso, e garantindo a regra de negócio. Esse pattern de jeito algum substitui a necessidade de tratar exceções, mas pode ser útil caso em algum momento você precise executar um método que necessariamente depende de algo pra que ele seja executado, já que não faz sentido continuar a execução caso essa condição não seja atendida. Além disso, fica fácil de ler e diminui a necessidade de criar vários ifs e elses, tornando o código mais legível e de fácil manutenção. Porém, ainda é possivel melhorar esse codigo. Caso esse método precise validar mais parâmetros ainda, criando uma classe que irá providenciar Guard Clauses para cenários diferentes, já que normalmente o menor pedaço de código que existirá em uma aplicação é um método, e a invocação dele tornará o código ainda mais legível.
+
+Exemplo:
+ public class GuardProvider{
+  
+  public void guardForString(String argument){
+    if(argument==nulls || argument.equals(""))
+    	throw new CustomException(msg);
+  }
+  
+  //guard clauses para cenários diferentes
+  
+ }
+ 
+ Código anterior com a adição de um método utilitário contra nulos
+ 
+  public void CreateUser(String userName, String password){
+    Guard.guardForString(userName);
+    Guard.guardForString(password);	
+  //executar código
+ }
+ 
+O código fica mais legível ainda e escalável, já que a classe GuardProvider pode ser usada para validar diferentes cenários sem ter que ficar criando diversos ifs e elses nas classes que precisam validar esses dados, ou mesmo métodos que fariam essa mesma validação, mas que ficariam espalhadas por toda a aplicação nas classes em que elas seriam necessárias. No entanto, é preciso ter cuidado para não fazer com que a classe de Guard valide literalmente tudo, mas sim aproveitá-la caso existam cenários que serão validados diversas vezes, como um objeto que é muito utilizado no código e não pode ter algum valor específico nulo ou algo do gênero. 
+Resumindo, o Guard Clause deve ser usado quando o código precisar validar muitos dados e acabar deixando o código pouco legível, ou caso alguma parte do código dependa explicitamente de algum valor para ser executado.
