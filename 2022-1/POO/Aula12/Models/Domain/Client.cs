@@ -2,12 +2,11 @@ namespace Aula12.Models.Domain;
 
 public class Client
 {
-    public Client(int id, string name, string phoneNumber, Charge charge)
+    public Client(int id, string name, string phoneNumber)
     {
         ClientId = id;
         Name = name;
         PhoneNumber = phoneNumber;
-        charge = charge;
     }
 
     public Client(){}
