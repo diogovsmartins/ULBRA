@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S7PIUJ08E89lH3G+M1JQidOvabZKZDJKJKVF+moKenyTx0tnT0Y5MZfSNnTauYownHzGkEHH8ngGYEiIC/CXWg==",
+  "dgSpecHash": "JnGv1fKHkW4T6JaXcNbBasoGy4P+p8lrsxUNdv55IlcavFVbjC2qffCkGlhf2AryvO7yoOMi0VF8QQpjnC7e1Q==",
   "success": true,
   "projectFilePath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14/Aula14/Aula14.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,9 @@
     "/home/diogo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/diogo/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/diogo/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/home/diogo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/home/diogo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/diogo/.nuget/packages/microsoft.netcore.app.ref/6.0.5/microsoft.netcore.app.ref.6.0.5.nupkg.sha512",
+    "/home/diogo/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.5/microsoft.netcore.app.host.linux-x64.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }

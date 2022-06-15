@@ -40,7 +40,7 @@ public class UserController
     public async Task<string> InsertUser([FromBody] User user)
     {
         UserRepository.Insert(user);
-        return "Usuário Inserido";
+            return "Usuário Inserido";
     }
     
     [HttpDelete("{id:int}")]
