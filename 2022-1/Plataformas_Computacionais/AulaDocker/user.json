@@ -1,0 +1,31 @@
+{
+    "user_id":1,
+    "name":"diogo",
+    "email":"diogo@email.com",
+    "cpf":"123.456.789.10",
+    "user_active":true,
+    "addresses":[
+        {
+            "address":"rua123, popopo",
+            "cep":"9483-192"
+        },
+        {
+            "address":"rua3212, pipipi",
+            "cep":"91512-020"
+        }
+    ]
+}
+
+{
+    "user_id":2,
+    "name":"cassio",
+    "email":"cassio@email.com",
+    "cpf":"229.356.189.05",
+    "user_active":true,
+    "addresses":[
+        {
+            "address":"rua1234, popopo",
+            "cep":"93212-221"
+        }
+    ]
+}

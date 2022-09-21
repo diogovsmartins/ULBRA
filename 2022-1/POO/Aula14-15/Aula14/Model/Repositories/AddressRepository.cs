@@ -14,6 +14,7 @@ public class AddressRepository:IAddressRepository
     
     public Address GetById(int id)
     {
+        DataContext.SaveChangesAsync();
        return DataContext.Addresses.SingleOrDefault(address => address.AddressId == id);
     }
 

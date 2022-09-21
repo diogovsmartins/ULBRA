@@ -1,0 +1,33 @@
+IBM cloud Services:
+
+Market share: 5% average.
+A Cloud da IBM oferece primariamente 2 serviços principais, Platform as a service (PaaS) que oferece ao contratante um sistema configuravel de acordo com a necessidade do projeto para hospedar suas aplicações e serviços, fazendo com que o ambiente em que a aplicação irá funcionar fique mais homogeneo e estável se bem configurado.
+Infrastructure as a service (Iaas) oferecendo ao contratante recursos computacionais como processamento, memória e armazenamento, diminuindo custos, aumentando performance e tornando a aplicação escalável.
+
+Além disso a IBM oferece algumas ferramentas que se integram com os serviços citados anteriormente.
+
+Algumas dessas ferramentas são:
+
+IBM Watson: A plataforma de serviços cognitivos da IBM para negócios que utiliza machine learning para sintetizer dados e facilitar decisões de negócios além de poder ser integrada a qualquer ambiente de cloud que seja necessário para automatizar diversos processos.
+
+Automation: Serviço de automação utilizando o IBM Cloud pak para automação da utilização de recursos e otimização de custos em diversas áreas do ambiente cloud.
+
+Quantum: Acesso à computação quantica em núvem da IBM.
+
+Containers: Acesso aos serviços de Kubernetes e conteinerização, Red hat openshift e Istio, esse serviço é especialmente útil em um contexto de microserviços.
+
+Analytics: Acesso à ferramentas de data science como Apache Spark, Apache Hadoop e ao machine learning da IBM Watson.
+
+Storage: Proporciona uma estrutura de storage as a service (STaaS) configurável, escalável e seguro para grandes ou pequenos volumes de dados.
+
+Databases: Acesso a uma gama de banco de dados SQL e NoSQL além de ferramentas para data querying, warehousing e migrations.
+
+IOT: Acesso às ferramentas de IOT da IBM para o monitoramento e analise dos dados produzidos por esses objetos.
+
+
+Referencias:
+
+https://www.techtarget.com/searchcloudcomputing/definition/Platform-as-a-Service-PaaS
+https://solvimm.com/blog/o-que-e-iaas/
+https://www.ibm.com/watson/about
+https://www.ibm.com/br-pt/storage?utm_content=SRCWW&p1=Search&p4=43700052743603615&p5=e&gclid=CjwKCAjw5NqVBhAjEiwAeCa97ddWhKzxwDaKCOUpt_rGlATaA2fB3-q9DBt-GDjhMYNhN7dLl_xd2xoCiaIQAvD_BwE&gclsrc=aw.ds

@@ -1,0 +1,31 @@
+Faça um pequeno relato sobre as API Rest utilizadas no desenvolvimento de software para a comunicação entre aplicações.
+Relate as características das mesmas (estrutura, recursos, tecnologias, protocolos):
+
+Um dos maiores motivos de utilizar APIs REST na atualidade é que elas trabalham principalmente com o protocolo HTTP e podem trafegar dados utilizando esse protocolo em arquivos relativamente pequenos como JSONS. Por esse motivo, e por utilizarem a estrutura da WEB que é campo comum entre a maioria das linguagens, é possivel abstrair a linguagem e fazer maior uso das ferramentas de clouding como AWS ou Azure que podem ser utilizados para escalar as APIs, fazendo com que elas sejam ainda mais rápidas e resilientes à problemas comuns como o servidor que hospeda o serviço cair ou de a aplicação não dar conta de atender todos os clientes simultaneamente. Além disso, pelo fato de serem APIs elas são escaláveis, já que um monolíto que está muito grande pode muito bem se tornar um microserviço eventualmente e continuar entregando os mesmos serviços que antes, mas de forma mais escalável e observável, além de serem relativamente rápidas para manter, desenvolver e entregar novas features já que na estrutura de microserviços, os serviços não precisam esperar um ao outro para poder desenvolver, desde que o contrato seja estabelecido cada time pode tocar suas funcionalidades em paralelo e depois integra-los.
+
+Explique o uso dos métodos HTTP (GET, POST, PUT e DELETE);
+GET: É o metodo HTTP que requisita alguma coisa do servidor, como por exemplo uma lista de clientes, informações sobre um produto, um catalogo de uma loja e coisas afins, geralmente é utilizada nesses contextos onde é preciso mostrar dados para o usuário.
+POST: Post é o metodo utilizado quando o servidor precisa receber dados na requisição, é bem utilizado para inserir dados em um banco de dados ou enviar informações pelo body.
+PUT: PUT é utilizado para atualizar dados existentes no lado do servidor, como alterar o nome de um usuário por exemplo, a maior diferença entre o POST e o PUT é que geralmente um metodo PUT deve sempre dar o mesmo resultado caso seus parametros não sejam alterados, diferente de um POST que na maioria dos casos vai ser utilizado para criar um novo recurso.
+DELETE: DELETE é o metodo HTTP que é utilizado para enviar a requisição da remoção de alguma coisa, geralmente algum dado no banco de dados.
+
+Fale sobre as ferramentas utilizadas para documentação e testes:
+Existem váris ferramentas, mas as mais comuns para documentar APIS REST são: 
+Swagger
+Stoplight Studio
+API Blueprint
+RAML
+
+E para testar esses endpoints que estão documentados a ferramenta mais comum é o Postman por ser bem completa, facil de utilizar e automatizar, mas existem outras opções como SOAP UI, Katalon e insomnia REST.
+
+Explore os principais usos das mesmas (móvel e web);
+
+Apis que utilizam o Padrão REST geralmente podem ser utilizadas para criar back-ends de aplicações tanto web como mobile com poucas mudanças, os principais usos atuais das APIS RESTFUL são na criação de aplicações monolíticas ou microserviços, visto que elas são muito escaláveis e de fácil manutenção e implementação desde que bem implementados.
+
+Exemplifique  o uso da mesma em uma linguagem.
+
+Um exemplo disso, seria por exemplo as APIS que estamos desenvolvendo nas disciplinas de POO utilizando C#. Essa api faz a ligação entre cliente e suas cobranças e utiliza do swagger para documentar os endpoints e seus parametros. Além disso, nesse caso eu deixei a collection do postman com todas as requests que criei para testar, uma de cada tipo para cada entidade do banco de dados.
+
+Link do meu Repo:
+https://github.com/diogovsmartins/ULBRA/tree/main/2022-1/POO/Aula14-15
+

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/diogo/dev/ULBRA/2022-1/POO/Aula14/Aula14/Aula14.csproj": {}
+    "/home/diogo/dev/ULBRA/2022-1/POO/Aula14-15/Aula14/Aula14.csproj": {}
   },
   "projects": {
-    "/home/diogo/dev/ULBRA/2022-1/POO/Aula14/Aula14/Aula14.csproj": {
+    "/home/diogo/dev/ULBRA/2022-1/POO/Aula14-15/Aula14/Aula14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14/Aula14/Aula14.csproj",
+        "projectUniqueName": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14-15/Aula14/Aula14.csproj",
         "projectName": "Aula14",
-        "projectPath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14/Aula14/Aula14.csproj",
+        "projectPath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14-15/Aula14/Aula14.csproj",
         "packagesPath": "/home/diogo/.nuget/packages/",
-        "outputPath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14/Aula14/obj/",
+        "outputPath": "/home/diogo/dev/ULBRA/2022-1/POO/Aula14-15/Aula14/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/diogo/.nuget/NuGet/NuGet.Config"
@@ -67,16 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.5, 6.0.5]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.5, 6.0.5]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -85,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

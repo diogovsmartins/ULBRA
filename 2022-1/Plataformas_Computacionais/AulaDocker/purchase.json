@@ -1,0 +1,40 @@
+{
+    "purchase_id": 1,
+    "user": {
+        "user_id": 1,
+        "name": "diogo",
+        "email": "diogo@email.com",
+        "cpf": "123.456.789.10",
+        "user_active": true,
+        "addresses": [
+            {
+                "address": "rua123, popopo",
+                "cep": "9483-192"
+            },
+            {
+                "address": "rua3212, pipipi",
+                "cep": "91512-020"
+            }
+        ]
+    },
+    "purchase_date": "28/06/2022",
+    "total_price": 215,
+    "purchased_items": [
+        {
+            "_id": "62bb76c0a4173e24acb2ce23",
+            "item_id": 1,
+            "item_name": "caneta",
+            "item_description": "caneta vermelha",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "_id": "62bb770ca4173e24acb2ce24",
+            "item_id": 2,
+            "item_name": "mochila",
+            "item_description": "mochila preta",
+            "price": 40,
+            "quantity": 5
+        }
+    ]
+}
