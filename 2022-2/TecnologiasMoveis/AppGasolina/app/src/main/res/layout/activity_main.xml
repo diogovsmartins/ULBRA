@@ -8,35 +8,64 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/alcoholInputValue"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:accessibilityHeading="false"
-        android:inputType="numberDecimal"
-        android:hint="@string/gasoline_input_example"
-        android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/gasolineInputValue"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447"
-        tools:ignore="Autofill" />
-
-    <EditText
         android:id="@+id/gasolineInputValue"
         android:layout_width="160dp"
         android:layout_height="40dp"
         android:accessibilityHeading="false"
-        android:inputType="numberDecimal"
         android:hint="@string/alcohol_input_example"
+        android:inputType="numberDecimal"
         android:textColorHint="@color/black"
+        android:contentDescription="@string/AcessibilityTextForAlcoholInputField"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/alcoholInputValue"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/labelForGasoline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:text="@string/gasoline_label"
+        android:textColor="@color/black"
+        android:contentDescription="@string/AcessibilityTextForGasolineLabel"
+        app:layout_constraintBottom_toTopOf="@+id/gasolineInputValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/labelForAlcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alcohol_label"
+        android:textColor="@color/black"
+        android:contentDescription="@string/AcessibilityTextForAlcoholLabel"
+        app:layout_constraintBottom_toTopOf="@+id/alcoholInputValue"
+        app:layout_constraintEnd_toStartOf="@+id/labelForGasoline"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/alcoholInputValue"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:accessibilityHeading="false"
+        android:hint="@string/gasoline_input_example"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:contentDescription="@string/AcessibilityTextForAlcoholInput"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/gasolineInputValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
         tools:ignore="Autofill" />
 
     <Button
@@ -45,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
         android:text="@string/text_button"
+        android:contentDescription="@string/AcessibilityTextForButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -67,41 +97,18 @@
     <TextView
         android:id="@+id/description"
         android:layout_width="304dp"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:paddingHorizontal="16dp"
         android:text="@string/app_description"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textSize="16dp"
+        android:contentDescription="@string/acessibilityTextForHeader"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
-
-    <TextView
-        android:id="@+id/labelForAlcohol"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/alcohol_label"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/alcoholInputValue"
-        app:layout_constraintEnd_toStartOf="@+id/labelForGasoline"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/labelForGasoline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:text="@string/gasoline_label"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/gasolineInputValue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.231" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

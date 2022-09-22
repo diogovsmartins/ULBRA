@@ -6,4 +6,10 @@
     <string name="alcohol_label">Alcohol</string>
     <string name="gasoline_label">Gasoline</string>
     <string name="text_button">Compare</string>
+    <string name="acessibilityTextForHeader">HeaderText, this reads like: Type the amount of alcohol and gasoline and see which one is best for your pocket.</string>
+    <string name="AcessibilityTextForAlcoholLabel">Label text for input alcohol value.</string>
+    <string name="AcessibilityTextForGasolineLabel">Label text for input gasoline value.</string>
+    <string name="AcessibilityTextForAlcoholInput">Input field for alcohol value</string>
+    <string name="AcessibilityTextForAlcoholInputField">Input field for gasoline value</string>
+    <string name="AcessibilityTextForButton">Button to calculate which one is better, between gasoline and alcohol, button text is COMPARE</string>
 </resources>
