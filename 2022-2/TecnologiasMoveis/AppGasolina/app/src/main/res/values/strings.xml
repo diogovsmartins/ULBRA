@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppGasolina</string>
+    <string name="gasoline_input_example">Ex:1.99</string>
+    <string name="alcohol_input_example">Ex:2.99</string>
+    <string name="app_description">Type the amount of alcohol and gasoline and see which one is best for your pocket.</string>
+    <string name="alcohol_label">Alcohol</string>
+    <string name="gasoline_label">Gasoline</string>
+    <string name="text_button">Compare</string>
+</resources>

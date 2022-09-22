@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="green_sheen">#77ACA2</color>
+    <color name="bismark">#468189</color>
+    <color name="maastricht_blue">#031926</color>
+    <color name="opal">#9DBEBB</color>
+    <color name="champagne">#F4E9CD</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
