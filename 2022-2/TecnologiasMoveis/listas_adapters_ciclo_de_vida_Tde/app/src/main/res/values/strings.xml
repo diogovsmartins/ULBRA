@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">listas_adapters_ciclo_de_vida_TDE</string>
+    <string name="product_value">value</string>
+    <string name="product_quantity">quantity</string>
+    <string name="product_name">Name</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="produto">Produto</string>
+    <string name="pre_o">Preço</string>
+    <string name="list_style">List Style</string>
+</resources>
