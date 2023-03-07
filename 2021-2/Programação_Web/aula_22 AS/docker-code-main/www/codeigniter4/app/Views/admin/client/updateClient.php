@@ -19,6 +19,6 @@
         </div>
         <br>
         <br>
-        <button type="submit" class="btn btn-warning">Salvar</button>
+        <button type="submit" class="btn btn-secondary">Salvar</button>
     </div>
 </form>

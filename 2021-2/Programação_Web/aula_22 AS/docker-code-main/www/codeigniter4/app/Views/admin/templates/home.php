@@ -1,4 +1,4 @@
-<h1>bem vindo</h1>
+<h1>Bem-Vindo</h1>
 <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cum culpa ipsum ratione molestiae, aliquid, facilis dolore modi unde recusandae saepe sit animi omnis magnam consequatur non hic voluptatem.
     Quaerat assumenda nisi molestias! Officiis provident doloremque a hic cum harum adipisci repudiandae optio expedita eius? Maiores, tempore soluta ipsam esse, reprehenderit, possimus repudiandae assumenda similique corporis accusamus provident nostrum.

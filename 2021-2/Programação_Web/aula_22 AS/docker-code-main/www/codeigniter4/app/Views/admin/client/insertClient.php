@@ -1,6 +1,6 @@
 <div class="container-fluid">
 <h1>Create Client</h1>
-<form action="<?=base_url('admin/client/insert-action')?>" method=POST enctype='multipart/form-data' class="bg-dark text-warning p-2    ">
+<form action="<?=base_url('admin/client/insert-action')?>" method=POST enctype='multipart/form-data' class="bg-light  p-2    ">
     <div class="form-group">
         <div>
             <label for="name">Name:</label>
@@ -20,7 +20,7 @@
         </div>
         <br>
         <br>
-        <button type="submit" class="btn btn-warning">Salvar</button>
+        <button type="submit" class="btn btn-secondary">Salvar</button>
     </div>
 </form>
 </div>

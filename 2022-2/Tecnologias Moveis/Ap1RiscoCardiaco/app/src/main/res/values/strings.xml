@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AP1RiscoCardíaco</string>
+    <string name="ageQuestionText">What is your age?</string>
+    <string name="ageQuestionDescription">This is a text field, it reads as: What is your age?</string>
+    <string name="typeYourAgeHint">Type your age</string>
+    <string name="nextTextForButton">Next</string>
+    <string name="radioButtonOption1">Feminino c/ menos de 40 anos</string>
+    <string name="radioButtonOption2">Feminino de 40 a 50 anos</string>
+    <string name="genericSelectOptionText">Select the option that most suits you</string>
+
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>CPP</item>
+    </string-array>
+</resources>

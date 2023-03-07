@@ -11,7 +11,7 @@ class Client extends Controller{
         $clientModel = new ClientModel();
 
         $data=[
-            'title' => 'Meu titulo da página',
+            'title' => 'Página',
             'clients' => $clientModel -> getClients()
         ];
 
@@ -24,7 +24,7 @@ class Client extends Controller{
         $clientModel = new ClientModel();
 
         $data=[
-        'title' => 'Meu titulo da página',
+        'title' => 'Página',
         'client' => $clientModel -> getClients($idClient)
         ];
 

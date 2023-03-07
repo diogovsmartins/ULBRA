@@ -23,23 +23,23 @@
 </head>
 <body>
 
-<header class="jumbotron text-center mb-0 bg-dark text-warning container-fluid">
+<header class="jumbotron text-center mb-0  container-fluid">
        <h1>Página do Adm</h1>
        <a href="<?=base_url('admin/logout')?>">Sair</a>
 </header>
-   <div class="container-fluid bg-light">
+   <div class="container-fluid">
         <div class="row">
-            <nav class="col-2 p-2 bg-secondary text-warning">
+            <nav class="col-2 p-2 bg-light">
                 <h2 class="text-dark">Menu</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="<?=base_url('admin')?>"  class="nav-link text-warning">Home</a>
+                        <a href="<?=base_url('admin')?>"  class="nav-link ">Home</a>
                     </li>  
                     <li class="nav-item">
-                        <a href="<?=base_url('admin/client')?>" class="nav-link text-warning">List Clients</a>
+                        <a href="<?=base_url('admin/client')?>" class="nav-link ">List Clients</a>
                     </li>     
                     <li class="nav-item">
-                        <a href="<?=base_url('admin/client/insert')?>" class="nav-link text-warning">Crete new Client</a>
+                        <a href="<?=base_url('admin/client/insert')?>" class="nav-link ">Crete new Client</a>
                     </li>      
                 </ul>
             </nav>

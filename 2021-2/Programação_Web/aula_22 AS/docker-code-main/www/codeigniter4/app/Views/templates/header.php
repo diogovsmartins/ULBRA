@@ -23,33 +23,33 @@
 </head>
 <body>
 
-<header class="jumbotron text-center mb-0 bg-dark text-warning fluid">
-       <h1>programação web</h1>
-       <p>Code Igniter</p>
+<header class="jumbotron text-center mb-0 fluid">
+       <h1>Projeto MVC</h1>
+       <p>utilizando Code Igniter</p>
 </header>
-   <div class="container-fluid bg-light">
+   <div class="container-fluid">
         <div class="row">
-            <nav class="col-2 p-1 bg-secondary text-warning container-fluid">
+            <nav class="col-2 p-1 bg-light  container-fluid">
                 <div>
                 <h2 class="text-dark" >Menu</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="<?=base_url('home')?>" class="nav-link text-warning">Home</a>
+                        <a href="<?=base_url('home')?>" class="nav-link ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=base_url('products')?>" class="nav-link text-warning">Products</a>
+                        <a href="<?=base_url('products')?>" class="nav-link ">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=base_url('about')?>" class="nav-link text-warning">About</a>
+                        <a href="<?=base_url('about')?>" class="nav-link ">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=base_url('contact')?>" class="nav-link text-warning">Contact</a>
+                        <a href="<?=base_url('contact')?>" class="nav-link ">Contact</a>
                     </li>
                 </ul>
                 <h2 class="text-dark">Clients</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="<?=base_url('client')?>" class="nav-link text-warning">List Clients</a>
+                        <a href="<?=base_url('client')?>" class="nav-link ">List Clients</a>
                     </li>
                 </ul>
             </nav>

@@ -8,23 +8,23 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
-<body style="background-color:black">
+<body>
 <div class="container-fluid" >
 <!-- style="vertical-aling:center" -->
 	<div class="row">
 		<div class="col-md-4"></div>
 		<div class="col-md-4 p-5">
-			<h1 class="text-warning">Login no sistema</h1>
+			<h1 class="">Login no sistema</h1>
 			<form action="<?= base_url('admin/validate-login')?>" method=POST name="formulario" id="formulario">
 				<div class="form-group">
-					<label class="text-warning">Login</label>
+					<label class="">Login</label>
 					<input type="text" class="form-control" name="userName" placeholder="Digite o usuário">				
 				</div>
 				<div class="form-group">
-		 			<label class="text-warning" >Senha</label>
+		 			<label class="" >Senha</label>
 					<input type="password" class="form-control" name="password" placeholder="Digite sua senha">
 				</div>	
-				<input class="btn btn-warning" type="submit" name="Enviar" value="Fazer Login">
+				<input class="btn btn-secondary" type="submit" name="Enviar" value="Fazer Login">
 			</form>
 		</div>	
 		<div class="col-md-4"></div>	

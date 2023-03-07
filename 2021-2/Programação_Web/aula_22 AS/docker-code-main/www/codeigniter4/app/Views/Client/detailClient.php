@@ -1,5 +1,5 @@
 <h1>Detalhes do cliente</h1>
-<table class="table table-dark table-striped text-warning">
+<table class="table table-striped ">
     <tr>
         <th>Id:</th>
         <td>
