@@ -5,7 +5,7 @@ import java.util.Objects;
 public class MatrixService {
 
    
-    public Integer[][] generateMatrix(Integer m, Integer n) {
+    public Integer[][] generateMatrix(final Integer m, final Integer n) {
         if (m == null || n == null) {
             throw new IllegalArgumentException("m and n must be not null");
         }
@@ -19,7 +19,7 @@ public class MatrixService {
     }
 
     
-    public String checkPattern(Integer[][] matrix, Integer[][] pattern) {
+    public String checkPattern(final Integer[][] matrix, final Integer[][] pattern) {
         if (matrix == null || matrix == null) {
             throw new IllegalArgumentException("given matrix and pattern must not be null");
         }
