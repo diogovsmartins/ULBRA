@@ -10,14 +10,18 @@ import java.util.Arrays;
 // Escreva um programa que verifique se esse padrão está presente na imagem em preto e branco.
 public class AP1 {
     public static void main(String[] args) {
+        //Randomly generated matrix and given pattern test
         MatrixService matrixService = new MatrixService();
-        Integer[][] matrix = matrixService.generateMatrix(10000, 10000);
-        String result = matrixService.checkPattern(matrix, new Integer[][]{{1,0,1,1,0,1,1}, {0,0,1,0,1,0,0}});
-        //test with chosen values
-        Integer[][] matrixWithChosenValues = new Integer[][] {{1,0,1,1,0,1,1}, {0,0,1,0,1,0,0}};
-        String testResult = matrixService.checkPattern(matrixWithChosenValues, new Integer[][]{{1,0}, {0,0,1}});
+        Integer[][] matrix = matrixService.generateMatrix(1000, 1000);
+        String result = matrixService.checkPattern(matrix, new Integer[][]{{1, 0, 1, 1, 0, 1, 1}, {0, 0, 1, 0, 1, 0, 0}});
 
         System.out.println(result);
+
+        //test with chosen values and given pattern
+        Integer[][] matrixWithChosenValues = new Integer[][]{{1, 0}, {0, 0}};
+        String testResult = matrixService.checkPattern(matrixWithChosenValues, new Integer[][]{{1, 0, 0}, {0, 1}});
+
+        System.out.println(testResult);
     }
 }
 
