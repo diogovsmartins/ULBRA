@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class MatrixService {
 
-    // method to generate matrix with size equal to the parameters, fill all indexes with random generated numbers
+   
     public Integer[][] generateMatrix(Integer m, Integer n) {
         if (m == null || n == null) {
             throw new IllegalArgumentException("m and n must be not null");
@@ -18,7 +18,7 @@ public class MatrixService {
         return matrix;
     }
 
-    //method to check if the pattern pattern in the parameter is present in the matrix
+    
     public String checkPattern(Integer[][] matrix, Integer[][] pattern) {
         if (matrix == null || matrix == null) {
             throw new IllegalArgumentException("given matrix and pattern must not be null");
@@ -55,8 +55,5 @@ public class MatrixService {
         var findTime=findEnd-findStart;
         return String.format("Pattern was not found, elapsed time %s miliseconds", findTime);
     }
-
-
-
 
 }
