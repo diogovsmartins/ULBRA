@@ -1,0 +1,23 @@
+Analise da UX da amazon.
+
+A Ux da amazon segue varias das heuristicas de nielsen e podem ser verificadas rapidamente, como:
+
+Consistencia de padroes, todos os marketplaces usam os mesmos padrões para manter consistencia e construir familiaridade.
+
+Prevenção de erros, ao invés de deixar o usuário errar, tentar arrumar o erro antes dele acontecer, um exemplo disso são as sugestões da barra de pesquisa que corrigem pra sugestões proximas ao que está sendo digitado.
+
+Reconhecimento em vez de memorização reconhecer funções comuns do sistema ao invés de fazer o usuario memorizar oque cada coisa faz ou o caminho para chegar onde ele quer.
+
+Sistema flexivel, funções simples de entender mas com profundidade caso o usuario deseje explorar mais.
+
+Estetica e design minimalista, oque esta sendo ofertado tem que ser o foco e não a interface.
+
+Além desses pontos eles seguem diversas boas práticas relacionadas a construção de uma boa experiencia para o usuario como o uso de botões arredondados porque eles são mais fáceis de entender. Estudos indicam que usamos menos esforço cognitivo para entender botões arredondados do que botões quadrados/retangulares.
+Sistema de avaliação para construir credibilidade já que é um marketplace e pequenas e grandes empresas podem anunciar seus produtos na plataforma.
+Recomendações personalizadas, para entregar oque os nichos que interessam ao usuário facilitando o uso e a imersão no sistema.
+A interface da amazon em relação às cores utilizadas também é bem inteligente, as cores são escolhidas para aumentar legibilidade usando contrastes de tons escuros e claros como azul, cinza, preto e branco. Além disso é comum usar algumas das cores que a amazon utiliza em outros marketplaces como o laranja para as ações de adicionar ao carrinho ou comprar agora, isso alinha os botões às expectativas do usuario e do mercado. Outro motivo é que as cores utilizadas são bem neutras, deixando o foco principal nos produtos que estão sendo ofertados e não na interface como sugerido nas heuristicas de nielsen.
+
+
+
+Links:Estudo sobre o porque os botões arredondados são preferíveisSIte da Amazon Heuristicas de Nielsen	
+
