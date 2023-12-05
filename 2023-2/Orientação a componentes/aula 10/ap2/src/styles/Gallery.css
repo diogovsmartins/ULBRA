@@ -1,0 +1,42 @@
+#gallery-div{
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 0.5vw;
+    flex-direction: column;
+    height: 100%;
+}
+
+#text-greeting-div{
+    background-color: #F2F2F2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#gallery-greeting-text{
+    text-align: center;
+    flex-grow: 1;
+    color: #151414;
+}
+
+#gallery-content-wrapper{
+    display: flex;
+}
+
+#gallery-attendant-card-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 60%;
+}
+
+#outer-form-div{
+    background-color: #F2F2F2;
+    display: flex;
+    flex: 30%;
+    margin-left: 1%;
+    min-height: 100%;
+}
+
+#form-style{
+    flex-grow: 1;
+}

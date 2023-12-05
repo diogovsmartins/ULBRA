@@ -1,0 +1,6 @@
+#localization-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30%;
+}

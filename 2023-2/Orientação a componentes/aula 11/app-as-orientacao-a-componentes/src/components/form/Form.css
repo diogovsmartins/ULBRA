@@ -1,0 +1,36 @@
+#form-style{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d2d2;
+    align-items: center;
+    min-height: 80%;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-shadow: 0px 5px 5px rgb(117, 117, 117);
+}
+
+#form-style input{
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-style button{
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  width: 80%;
+  height: 7.5%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#form-style button:hover{
+  box-shadow: 0px 5px 5px rgb(117, 117, 117);
+}
+
+#form-div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}

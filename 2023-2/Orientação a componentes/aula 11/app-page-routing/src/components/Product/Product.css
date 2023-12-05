@@ -1,0 +1,22 @@
+.product-wrapper-div{
+    display: flex column;
+    max-width: 15%;
+    max-height: 15%;
+    margin-bottom: 2%;
+}
+
+.product-image-style{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.product-description-div{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 5px 5px rgb(158, 158, 158);
+}

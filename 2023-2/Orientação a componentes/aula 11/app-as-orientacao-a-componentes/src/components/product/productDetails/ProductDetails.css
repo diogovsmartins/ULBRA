@@ -1,0 +1,27 @@
+#product-detailment-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    height: 80vh;
+    margin-bottom: 20px; 
+}
+
+#product-image-style {
+    max-width: 60%;
+    height: 500px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover; 
+}
+
+
+#product-details{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    height: 20%;
+}

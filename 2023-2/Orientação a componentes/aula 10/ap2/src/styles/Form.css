@@ -1,0 +1,11 @@
+#form-style{
+    display: flex;
+    background-color: #d9d2d2;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-style input{
+  display: flex;
+  justify-content: space-between;
+}

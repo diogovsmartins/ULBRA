@@ -1,0 +1,16 @@
+.header{
+    background-color: #0681B1;
+    display: flex;
+}
+
+#header-tittle{
+    text-align: center;
+    flex-grow: 1;
+    color: #151414;
+  }
+
+#header-image{
+    width: 80px; 
+    height: 80px;
+    clip-path: circle(50% at 50% 50%);
+}

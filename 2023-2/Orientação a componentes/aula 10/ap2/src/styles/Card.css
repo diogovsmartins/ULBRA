@@ -1,0 +1,19 @@
+.attendant-card-div{
+    background-color: #151414;
+    color: #151414;
+    border-radius: 5%;
+    display: flex;
+    padding: 20px;
+    border: 2px solid #0681B1;
+}
+
+.attendant-information-div{
+    background-color: #EDE1F5;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.attendant-information{
+    text-align: center;
+    font-size: 16px;
+}

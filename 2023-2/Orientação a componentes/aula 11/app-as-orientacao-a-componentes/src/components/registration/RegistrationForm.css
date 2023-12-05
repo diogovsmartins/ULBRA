@@ -1,0 +1,18 @@
+#registration-div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#image-styles{
+    max-width: 100%;
+}
+
+#form-div{
+    align-items: center;
+    flex: 30%;
+}
+
+#background-div{
+    flex: 70%
+}
